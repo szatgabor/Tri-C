@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 li {
     display: inline-block;
     list-style: none;
@@ -13,6 +17,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .logo {
@@ -23,14 +28,23 @@ a {
     display: flex;
 }
 
-// header style
+// Header style
 header {
     position: relative;
 
-    // Change class name and URL for each page
+    &.bcg1 {
+        background: url("../img/tric\ homepage\ image.jpg") no-repeat top left / 140%;
+        height: 45rem;
+    }
+
+    &.bcg2 {
+        background: url(../img/shutterstock_588870536.jpg) no-repeat top left / 140%;
+        height: 45rem;
+    }
+
     &.bcg3 {
         background: url(../img/shutterstock_141854491.jpg) center center / cover;
-        height: 40rem;
+        height: 45rem;
     }
 
     .banner {
@@ -41,8 +55,6 @@ header {
         line-height: 1.5;
         padding: 2rem;
         width: 100%;
-        justify-content: flex-end;
-        align-self: center;
 
         position: absolute;
         bottom: 2rem;
@@ -55,10 +67,31 @@ header {
     }
 
     nav {
+        position: relative;
+        padding-top: 2rem;
+
         .login {
             position: absolute;
             top: 0rem;
             right: 2rem;
+
+            li {
+                margin: 0 1px;
+
+                a {
+                    display: inline-block;
+                    color: #fff;
+                    padding: 0.3rem 2rem;
+                }
+
+                &:first-child {
+                    background-color: $secondary-color;
+                }
+
+                &:last-child {
+                    background-color: $third-color;
+                }
+            }
         }
 
         .logo {
@@ -68,13 +101,58 @@ header {
         }
 
         .main-nav {
-            position: fixed;
+            position: absolute;
             top: 2rem;
             right: 2rem;
-        }
 
-        li {
-            padding: 0 0.5rem;
+            li {
+                padding: 0.5rem;
+            }
+
+            a {
+                color: $footer-color;
+
+                &:hover {
+                    border-bottom: 1px solid $footer-color;
+                }
+            }
         }
     }
 }
+
+// End of Header style
+
+// Footer style
+footer {
+    margin-top: 1rem;
+
+    div:first-child {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .footer-1 {
+        font-weight: bold;
+        color: $secondary-color;
+    }
+
+    .footer-2 {
+        font-weight: bold;
+    }
+
+    .info {
+        justify-content: space-between;
+        background-color: $footer-color;
+        color: #fff;
+        padding: 1rem;
+
+        font-size: small;
+
+        li {
+            padding: 0 1rem;
+        }
+    }
+}
+
+// End of Footer style
