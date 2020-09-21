@@ -23,11 +23,10 @@ a {
 	display: flex;
 }
 
-// header style
+// Header style
 header {
 	position: relative;
 
-	// Change class name and URL for each page
 	&.bcg3 {
 		background: url(../img/shutterstock_141854491.jpg) center center / cover;
 		height: 40rem;
@@ -41,8 +40,6 @@ header {
 		line-height: 1.5;
 		padding: 2rem;
 		width: 100%;
-		justify-content: flex-end;
-		align-self: center;
 
 		position: absolute;
 		bottom: 2rem;
