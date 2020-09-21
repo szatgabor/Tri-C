@@ -23,7 +23,7 @@ a {
 	display: flex;
 }
 
-// courses header style
+// Header style
 header {
 	position: relative;
 
@@ -40,8 +40,6 @@ header {
 		line-height: 1.5;
 		padding: 2rem;
 		width: 100%;
-		justify-content: flex-end;
-		align-self: center;
 
 		position: absolute;
 		bottom: 2rem;
