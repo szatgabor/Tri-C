@@ -1,1 +1,23 @@
-*{padding:0;margin:0;box-sizing:border-box}li{display:inline-block;list-style:none}a{text-decoration:none}.logo{width:20%}.flex{display:flex}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 20%;
+}
+
+.flex {
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
