@@ -11,7 +11,7 @@ body {
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -20,13 +20,8 @@ li {
 }
 
 a {
-<<<<<<< HEAD
-	text-decoration: none;
-	color: #fff;
-=======
     text-decoration: none;
     color: #fff;
->>>>>>> origin/media
 }
 
 .logo {
@@ -39,135 +34,11 @@ a {
 
 // Header style
 header {
-<<<<<<< HEAD
-	position: relative;
-	&.bcg1 {
-		background: url("../img/tric\ homepage\ image.jpg") no-repeat top left / 140%;
-		height: 45rem;
-	}
-
-	&.bcg2 {
-		background: url(../img/shutterstock_588870536.jpg) no-repeat top left / 140%;
-		height: 45rem;
-	}
-
-	&.bcg3 {
-		background: url(../img/shutterstock_141854491.jpg) center center / cover;
-		height: 45rem;
-	}
-
-	.banner {
-		background-color: rgba(19, 172, 186, 0.8);
-		color: #fff;
-
-		text-align: center;
-		line-height: 1.5;
-		padding: 2rem;
-		width: 100%;
-
-		position: absolute;
-		bottom: 2rem;
-
-		h1 {
-			margin: auto;
-			width: 80%;
-			border-bottom: 1px solid #fff;
-		}
-	}
-
-	nav {
-		position: relative;
-		padding-top: 2rem;
-
-		.login {
-			position: absolute;
-			top: 0rem;
-			right: 2rem;
-
-			li {
-				margin: 0 1px;
-
-				a {
-					display: inline-block;
-					color: #fff;
-					padding: 0.3rem 2rem;
-				}
-
-				&:first-child {
-					background-color: $secondary-color;
-				}
-				&:last-child {
-					background-color: $third-color;
-				}
-			}
-		}
-
-		.logo {
-			position: absolute;
-			top: 2rem;
-			left: 2rem;
-		}
-
-		.main-nav {
-			position: absolute;
-			top: 2rem;
-			right: 2rem;
-
-			li {
-				padding: 0.5rem;
-			}
-
-			a {
-				color: $footer-color;
-
-				&:hover {
-					border-bottom: 1px solid $footer-color;
-				}
-			}
-		}
-	}
-}
-// End of Header style
-
-// Footer style
-footer {
-	margin-top: 1rem;
-
-	div:first-child {
-		font-size: 1.5rem;
-		text-align: center;
-		padding: 2rem;
-	}
-
-	.footer-1 {
-		font-weight: bold;
-		color: $secondary-color;
-	}
-
-	.footer-2 {
-		font-weight: bold;
-	}
-
-	.info {
-		justify-content: space-between;
-		background-color: $footer-color;
-		color: #fff;
-		padding: 1rem;
-
-		font-size: small;
-
-		li {
-			padding: 0 1rem;
-		}
-	}
-}
-// End of Footer style
-=======
     position: relative;
 
-    &.bcg1 {
-        background: url("../img/tric\ homepage\ image.jpg") no-repeat top left / 140%;
-        height: 45rem;
+    &.bcg {
+        background: url("../img/tric_homepage_image.jpg") no-repeat top left/ 140%;
+        height: 64rem;
     }
 
     &.bcg2 {
@@ -181,7 +52,7 @@ footer {
     }
 
     .banner {
-        background-color: rgba(19, 172, 186, 0.8);
+        background-color: $primary-color-opacity;
         color: #fff;
 
         text-align: center;
@@ -289,4 +160,3 @@ footer {
 }
 
 // End of Footer style
->>>>>>> origin/media
