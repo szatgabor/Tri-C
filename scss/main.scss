@@ -13,6 +13,7 @@ li {
 
 a {
 	text-decoration: none;
+	color: #fff;
 }
 
 .logo {
@@ -56,6 +57,23 @@ header {
 			position: absolute;
 			top: 0rem;
 			right: 2rem;
+
+			li {
+				margin: 0 1px;
+
+				a {
+					display: inline-block;
+					color: #fff;
+					padding: 0.3rem 2rem;
+				}
+
+				&:first-child {
+					background-color: $secondary-color;
+				}
+				&:last-child {
+					background-color: $third-color;
+				}
+			}
 		}
 		.logo {
 			position: absolute;
@@ -67,10 +85,43 @@ header {
 			position: fixed;
 			top: 2rem;
 			right: 2rem;
-		}
 
-		li {
-			padding: 0 0.5rem;
+			li {
+				padding: 0.5rem;
+			}
+
+			a {
+				color: $footer-color;
+
+				&:hover {
+					border-bottom: 1px solid $footer-color;
+				}
+			}
 		}
 	}
 }
+// End of Header style
+
+// Footer style
+footer {
+	.footer-1 {
+		font-weight: bold;
+		color: $secondary-color;
+	}
+
+	.footer-2 {
+		font-weight: bold;
+	}
+
+	.info {
+		justify-content: space-between;
+		background-color: $footer-color;
+		color: #fff;
+		padding: 1rem;
+
+		li {
+			padding: 0 1rem;
+		}
+	}
+}
+// End of Footer style
