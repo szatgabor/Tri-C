@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/szatgabor/Tri-C/issues"
   },
-  "homepage": "https://github.com/szatgabor/Tri-C#readme"
+  "homepage": "https://github.com/szatgabor/Tri-C#readme",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^4.17.1",
+    "livereload": "^0.9.1",
+    "node-sass-middleware": "^0.11.0"
+  }
 }
