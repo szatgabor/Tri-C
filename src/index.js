@@ -7,20 +7,20 @@ const connectLiveReload = require("connect-livereload");
 // Utility variables
 const server = express();
 const liveServer = liveReload.createServer({
-  extraExts: "scss",
+	extraExts: "scss",
 });
 const PORT = 3564;
 const publicPath = path.join(__dirname, "../public");
 const sassPath = path.join(__dirname, "../scss");
 // Middleware
 server.use(
-  sassMiddleware({
-    src: sassPath,
-    dest: path.join(publicPath, "/css"),
-    debug: true,
-    outputStyle: "compressed",
-    prefix: "/css",
-  })
+	sassMiddleware({
+		src: sassPath,
+		dest: path.join(publicPath, "/css"),
+		debug: true,
+		outputStyle: "compressed",
+		prefix: "/css",
+	})
 );
 server.use(connectLiveReload());
 server.use(express.static(publicPath));
