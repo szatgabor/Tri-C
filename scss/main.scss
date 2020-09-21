@@ -27,10 +27,14 @@ a {
 // Header style
 header {
 	position: relative;
-
+	&.bcg1 {
+		background: url("../img/tric\ homepage\ image.jpg") no-repeat top left;
+		background-size: 140%;
+		height: 45rem;
+	}
 	&.bcg3 {
 		background: url(../img/shutterstock_141854491.jpg) center center / cover;
-		height: 40rem;
+		height: 45rem;
 	}
 
 	.banner {
@@ -53,6 +57,9 @@ header {
 	}
 
 	nav {
+		position: relative;
+		padding-top: 2rem;
+
 		.login {
 			position: absolute;
 			top: 0rem;
@@ -75,6 +82,7 @@ header {
 				}
 			}
 		}
+
 		.logo {
 			position: absolute;
 			top: 2rem;
@@ -82,7 +90,7 @@ header {
 		}
 
 		.main-nav {
-			position: fixed;
+			position: absolute;
 			top: 2rem;
 			right: 2rem;
 
