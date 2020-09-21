@@ -104,6 +104,14 @@ header {
 
 // Footer style
 footer {
+	margin-top: 1rem;
+
+	div:first-child {
+		font-size: 1.5rem;
+		text-align: center;
+		padding: 2rem;
+	}
+
 	.footer-1 {
 		font-weight: bold;
 		color: $secondary-color;
@@ -118,6 +126,8 @@ footer {
 		background-color: $footer-color;
 		color: #fff;
 		padding: 1rem;
+
+		font-size: small;
 
 		li {
 			padding: 0 1rem;
