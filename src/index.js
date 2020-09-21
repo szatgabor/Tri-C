@@ -26,3 +26,5 @@ server.use(connectLiveReload());
 server.use(express.static(publicPath));
 liveServer.watch([publicPath, sassPath]);
 server.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
+console.log(publicPath);
+console.log(sassPath);
