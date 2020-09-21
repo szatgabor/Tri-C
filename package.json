@@ -1,0 +1,20 @@
+{
+  "name": "Tri-C",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szatgabor/Tri-C.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szatgabor/Tri-C/issues"
+  },
+  "homepage": "https://github.com/szatgabor/Tri-C#readme"
+}

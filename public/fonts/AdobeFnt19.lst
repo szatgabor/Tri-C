@@ -1,0 +1,314 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Bold
+FamilyName:Gotham
+StyleName:Bold
+MenuName:Gotham Bold
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Gotham Bold
+WritingScript:Roman
+OutlineFileName:\GothaBol
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:80897
+FileModTime:1221126198
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Book
+FamilyName:Gotham
+StyleName:Book
+MenuName:Gotham Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Gotham Book
+WritingScript:Roman
+OutlineFileName:\GothaBoo
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:78593
+FileModTime:1221126286
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-ExtraLight
+FamilyName:Gotham
+StyleName:Extra Light
+MenuName:Gotham Extra Light
+StyleBits:0
+WeightClass:100
+WidthClass:5
+AngleClass:0
+FullName:Gotham Extra Light
+WritingScript:Roman
+OutlineFileName:\GothaExtLig
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77512
+FileModTime:1221126274
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Light
+FamilyName:Gotham
+StyleName:Light
+MenuName:Gotham Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Gotham Light
+WritingScript:Roman
+OutlineFileName:\GothaLig
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77379
+FileModTime:1221126166
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-Bold
+OutlineFileName:\Gotham Bold
+ResourceID:4958
+MacStyle:0
+FileLength:76843
+FileModTime:1221126200
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-BoldItalic
+OutlineFileName:\Gotham Bold
+ResourceID:4958
+MacStyle:2
+FileLength:76843
+FileModTime:1221126200
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-BoldItalic
+OutlineFileName:\Gotham Bold
+ResourceID:8746
+MacStyle:0
+FileLength:76843
+FileModTime:1221126200
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-Book
+OutlineFileName:\Gotham Book
+ResourceID:1226
+MacStyle:0
+FileLength:77227
+FileModTime:1221126288
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-BookItalic
+OutlineFileName:\Gotham Book
+ResourceID:1226
+MacStyle:2
+FileLength:77227
+FileModTime:1221126288
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-BookItalic
+OutlineFileName:\Gotham Book
+ResourceID:5563
+MacStyle:0
+FileLength:77227
+FileModTime:1221126288
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-ExtraLight
+OutlineFileName:\Gotham Extra Light
+ResourceID:7325
+MacStyle:0
+FileLength:80521
+FileModTime:1221126276
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-ExtraLightItalic
+OutlineFileName:\Gotham Extra Light
+ResourceID:7325
+MacStyle:2
+FileLength:80521
+FileModTime:1221126276
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-ExtraLightItalic
+OutlineFileName:\Gotham Extra Light
+ResourceID:7421
+MacStyle:0
+FileLength:80521
+FileModTime:1221126276
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-Light
+OutlineFileName:\Gotham Light
+ResourceID:8327
+MacStyle:0
+FileLength:75579
+FileModTime:1221126168
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-LightItalic
+OutlineFileName:\Gotham Light
+ResourceID:8327
+MacStyle:2
+FileLength:75579
+FileModTime:1221126168
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-LightItalic
+OutlineFileName:\Gotham Light
+ResourceID:8904
+MacStyle:0
+FileLength:75579
+FileModTime:1221126168
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-Medium
+OutlineFileName:\Gotham Medium
+ResourceID:4944
+MacStyle:0
+FileLength:78279
+FileModTime:1221126178
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-MediumItalic
+OutlineFileName:\Gotham Medium
+ResourceID:4944
+MacStyle:2
+FileLength:78279
+FileModTime:1221126178
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Gotham-MediumItalic
+OutlineFileName:\Gotham Medium
+ResourceID:2829
+MacStyle:0
+FileLength:78279
+FileModTime:1221126178
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Medium
+FamilyName:Gotham
+StyleName:Medium
+MenuName:Gotham Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Gotham Medium
+WritingScript:Roman
+OutlineFileName:\GothaMed
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:79541
+FileModTime:1221126176
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:235436
+FileModTime:1188198516
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
