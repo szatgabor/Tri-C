@@ -23,10 +23,11 @@ a {
 	display: flex;
 }
 
-// courses header style
+// header style
 header {
 	position: relative;
 
+	// Change class name and URL for each page
 	&.bcg3 {
 		background: url(../img/shutterstock_141854491.jpg) center center / cover;
 		height: 40rem;
