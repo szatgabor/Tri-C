@@ -10,10 +10,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 li {
   display: inline-block;
   list-style: none;
@@ -148,14 +144,18 @@ footer {
 
   .info {
     justify-content: space-between;
+    align-items: center;
     background-color: $footer-color;
     color: #fff;
+    font-size: small;
     padding: 1rem;
 
-    font-size: small;
-
     li {
-      padding: 0 1rem;
+      padding: .5rem 1rem;
+
+      .socials {
+        font-size: 1.3rem;
+      }
     }
   }
 }
