@@ -37,7 +37,7 @@ header {
   position: relative;
 
   &.bcg {
-    background: url("../img/tric_homepage_image.jpg") no-repeat top left/ 140%;
+    background: url("../img/tric_homepage_image.jpg") no-repeat top left/ 140vw;
     height: 64rem;
   }
 
@@ -52,6 +52,7 @@ header {
   }
 
   .banner {
+
     background-color: $primary-color-opacity;
     color: #fff;
 
