@@ -31,11 +31,13 @@ a {
 // Header style
 header {
 	position: relative;
+
 	&.bcg1 {
 		background: url("../img/tric\ homepage\ image.jpg") no-repeat top left;
 		background-size: 140%;
 		height: 65rem;
 	}
+
 	&.bcg3 {
 		background: url(../img/shutterstock_141854491.jpg) center center / cover;
 		height: 45rem;
@@ -81,6 +83,7 @@ header {
 				&:first-child {
 					background-color: $secondary-color;
 				}
+
 				&:last-child {
 					background-color: $third-color;
 				}
@@ -112,6 +115,7 @@ header {
 		}
 	}
 }
+
 // End of Header style
 
 // Courses first page style
@@ -152,6 +156,7 @@ main {
 			}
 		}
 	}
+
 	.btn-turq {
 		background-color: $secondary-color;
 		color: #fff;
@@ -182,6 +187,7 @@ main {
 				width: 5rem;
 				padding: 0.2rem;
 			}
+
 			td {
 				width: 5rem;
 				height: 5rem;
@@ -189,7 +195,7 @@ main {
 				border: 1px solid #ddd;
 			}
 
-			tr + tr {
+			tr+tr {
 				text-align: left;
 
 				th {
@@ -227,6 +233,7 @@ main {
 			}
 		}
 	}
+
 	// End of first courses page style
 
 	// courses-list style
@@ -256,8 +263,7 @@ main {
 
 				.cropped-img-1 {
 					width: 45%;
-					background: url("../img/overstitch-bariatric.jpg") no-repeat center center /
-						cover;
+					background: url("../img/overstitch-bariatric.jpg") no-repeat center center / cover;
 				}
 
 				.cropped-img-2 {
@@ -273,6 +279,7 @@ main {
 					h3 {
 						color: $primary-color;
 					}
+
 					h3,
 					h5,
 					span {
@@ -297,8 +304,9 @@ main {
 			}
 		}
 	}
+
+	// End of courses-list style
 }
-// End of courses-list style
 
 // Footer style
 footer {
@@ -332,4 +340,5 @@ footer {
 		}
 	}
 }
+
 // End of Footer style
