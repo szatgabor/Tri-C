@@ -122,6 +122,15 @@ main {
 
 	font-size: small;
 
+	.active-link {
+		font-weight: bold;
+	}
+
+	a {
+		color: $secondary-color;
+		font-weight: bold;
+	}
+
 	section:first-child {
 		h5 {
 			font-weight: lighter;
@@ -156,11 +165,6 @@ main {
 	section.calendar {
 		background-color: #dddddd;
 		padding: 0.7rem;
-
-		a {
-			color: $secondary-color;
-			font-weight: bold;
-		}
 
 		ul {
 			justify-content: space-between;
@@ -219,6 +223,74 @@ main {
 
 				td {
 					opacity: 0.2;
+				}
+			}
+		}
+	}
+
+	section.list {
+		.list-calendar {
+			background-color: #dddddd;
+			padding: 0.5rem;
+			width: 20%;
+			margin: 2rem auto;
+
+			justify-content: center;
+		}
+
+		.list-items {
+			flex-direction: column;
+
+			article {
+				width: 100%;
+				border-bottom: 1px solid $footer-color;
+				padding: 1rem 0;
+				justify-content: space-between;
+
+				img {
+					width: 45%;
+					height: 12rem;
+				}
+
+				.cropped-img-1 {
+					width: 45%;
+					background: url("../img/overstitch-bariatric.jpg") no-repeat center center /
+						cover;
+				}
+
+				.cropped-img-2 {
+					width: 45%;
+					background: url("../img/4×1-e1445943046127.png") no-repeat center center / cover;
+				}
+
+				.list-text {
+					width: 50%;
+					flex-direction: column;
+					justify-content: space-between;
+
+					h3 {
+						color: $primary-color;
+					}
+					h3,
+					h5,
+					span {
+						margin: 0.5rem 0;
+					}
+
+					.read-more {
+						text-align: right;
+
+						a {
+							color: #000;
+							font-weight: lighter;
+						}
+
+						i {
+							color: $secondary-color;
+							border: 1px solid $secondary-color;
+							padding: 0.1rem 0.3rem;
+						}
+					}
 				}
 			}
 		}
