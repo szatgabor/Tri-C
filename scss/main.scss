@@ -56,6 +56,10 @@ header {
         height: 45rem;
     }
 
+    &.bcg-media-article {
+        background: url(../img/shutterstock_244312780.jpg);
+    }
+
     .banner {
         background-color: $primary-color-opacity;
         color: #fff;

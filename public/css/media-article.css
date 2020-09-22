@@ -1,0 +1,69 @@
+:root {
+  --gray-color: rgb(94, 90, 90);
+  --light-gray: rgb(172, 166, 166);
+}
+
+body .bcg-media-article {
+  height: 21.5rem;
+  overflow: hidden;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+body .bcg-media-article .banner h1 {
+  margin: auto;
+  width: 80%;
+  border-bottom: 0px;
+  font-size: 0.8rem;
+  line-height: 100%;
+}
+
+body .container {
+  overflow: hidden;
+}
+
+body .container .article-content {
+  padding: 35px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  text-align: justify;
+  line-height: 120%;
+  color: var(--gray-color);
+  column-count: 2;
+  column-gap: 35px;
+}
+
+body .container .article-pictures {
+  padding: 3%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+body .container .article-pictures .image1,
+body .container .article-pictures .image2,
+body .container .article-pictures .image3 {
+  width: 12.5rem;
+  height: 10.5rem;
+  overflow: hidden;
+}
+
+body .container .article-pictures img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+body .container .article-pictures .image1 img {
+  object-position: -100px;
+}
+
+body .container .article-pictures .image2 img {
+  object-position: -50px;
+}
+
+body .container .article-pictures .image3 img {
+  object-position: -55px;
+}
+/*# sourceMappingURL=media-article.css.map */
