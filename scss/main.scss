@@ -1,143 +1,147 @@
 @import "var";
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .logo {
-    width: 20%;
+  width: 20%;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 // Header style
 header {
-    position: relative;
+  position: relative;
 
-    &.bcg {
-        background: url("../img/tric_homepage_image.jpg") no-repeat top left/ 140%;
-        height: 64rem;
-    }
+  &.bcg {
+    background: url("../img/tric_homepage_image.jpg") no-repeat top left/ 140vw;
+    height: 64rem;
+  }
 
-    &.bcg2 {
-        background: url(../img/shutterstock_588870536.jpg) no-repeat top left / 140%;
-        height: 45rem;
-    }
+  &.bcg2 {
+    background: url(../img/shutterstock_588870536.jpg) no-repeat top left / 140%;
+    height: 45rem;
+  }
 
-    &.bcg3 {
-        background: url(../img/shutterstock_141854491.jpg) center center / cover;
-        height: 45rem;
-    }
+  &.bcg3 {
+    background: url(../img/shutterstock_141854491.jpg) center center / cover;
+    height: 45rem;
+  }
 
-    &.bcg7 {
-        background: url(../img/shutterstock_385477789.jpg) no-repeat top left / 140%;
-        height: 45rem;
-    }
+  &.bcg7 {
+    background: url(../img/shutterstock_385477789.jpg) no-repeat top left / 140%;
+    height: 45rem;
+  }
+
+  .banner {
+    background-color: $primary-color-opacity;
+    color: #fff;
 
     .banner {
-        background-color: $primary-color-opacity;
-        color: #fff;
 
-        text-align: center;
-        line-height: 1.5;
-        padding: 2rem;
-        width: 100%;
+      background-color: $primary-color-opacity;
+      color: #fff;
 
-        position: absolute;
-        bottom: 2rem;
+      text-align: center;
+      line-height: 1.5;
+      padding: 2rem;
+      width: 100%;
 
-        h1 {
-            margin: auto;
-            width: 80%;
-            border-bottom: 1px solid #fff;
-        }
+      position: absolute;
+      bottom: 2rem;
+
+      h1 {
+        margin: auto;
+        width: 80%;
+        border-bottom: 1px solid #fff;
+      }
     }
 
     nav {
-        position: relative;
-        padding-top: 2rem;
+      position: relative;
+      padding-top: 2rem;
 
-        .login {
-            position: absolute;
-            top: 0rem;
-            right: 2rem;
+      .login {
+        position: absolute;
+        top: 0rem;
+        right: 2rem;
 
-            li {
-                margin: 0 1px;
+        li {
+          margin: 0 1px;
 
-                a {
-                    display: inline-block;
-                    color: #fff;
-                    padding: 0.3rem 2rem;
-                }
+          a {
+            display: inline-block;
+            color: #fff;
+            padding: 0.3rem 2rem;
+          }
 
-                &:first-child {
-                    background-color: $secondary-color;
-                }
+          &:first-child {
+            background-color: $secondary-color;
+          }
 
-                &:last-child {
-                    background-color: $third-color;
-                }
-            }
+          &:last-child {
+            background-color: $third-color;
+          }
+        }
+      }
+
+      .logo {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+      }
+
+      .main-nav {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+        li {
+          padding: 0.5rem;
         }
 
-        .logo {
-            position: absolute;
-            top: 2rem;
-            left: 2rem;
+        a {
+          color: $footer-color;
+
+          &:hover {
+            border-bottom: 1px solid $footer-color;
+          }
         }
+      }
 
-        .main-nav {
-            position: absolute;
-            top: 2rem;
-            right: 2rem;
+      position: relative;
 
-            li {
-                padding: 0.5rem;
-            }
-
-            a {
-                color: $footer-color;
-
-                &:hover {
-                    border-bottom: 1px solid $footer-color;
-                }
-            }
-        }
-    }
-
-    position: relative;
-
-    &.bcg1 {
+      &.bcg1 {
         background: url("../img/tric\ homepage\ image.jpg") no-repeat top left;
         background-size: 140%;
         height: 65rem;
-    }
+      }
 
-    &.bcg3 {
+      &.bcg3 {
         background: url(../img/shutterstock_141854491.jpg) center center / cover;
         height: 45rem;
-    }
+      }
 
-    .banner {
+      .banner {
         background-color: rgba(19, 172, 186, 0.8);
         color: #fff;
 
@@ -150,99 +154,103 @@ header {
         bottom: 5rem;
 
         h1 {
-            margin: auto;
-            width: 80%;
-            border-bottom: 1px solid #fff;
+          margin: auto;
+          width: 80%;
+          border-bottom: 1px solid #fff;
         }
-    }
+      }
 
-    nav {
+      nav {
         position: relative;
         padding-top: 2rem;
 
         .login {
-            position: absolute;
-            top: 0rem;
-            right: 2rem;
+          position: absolute;
+          top: 0rem;
+          right: 2rem;
 
-            li {
-                margin: 0 1px;
+          li {
+            margin: 0 1px;
 
-                a {
-                    display: inline-block;
-                    color: #fff;
-                    padding: 0.3rem 2rem;
-                }
-
-                &:first-child {
-                    background-color: $secondary-color;
-                }
-
-                &:last-child {
-                    background-color: $third-color;
-                }
+            a {
+              display: inline-block;
+              color: #fff;
+              padding: 0.3rem 2rem;
             }
+
+            &:first-child {
+              background-color: $secondary-color;
+            }
+
+            &:last-child {
+              background-color: $third-color;
+            }
+          }
         }
 
         .logo {
-            position: absolute;
-            top: 2rem;
-            left: 2rem;
+          position: absolute;
+          top: 2rem;
+          left: 2rem;
         }
 
         .main-nav {
-            position: absolute;
-            top: 2rem;
-            right: 2rem;
+          position: absolute;
+          top: 2rem;
+          right: 2rem;
 
-            li {
-                padding: 0.5rem;
+          li {
+            padding: 0.5rem;
+          }
+
+          a {
+            color: $footer-color;
+
+            &:hover {
+              border-bottom: 1px solid $footer-color;
             }
-
-            a {
-                color: $footer-color;
-
-                &:hover {
-                    border-bottom: 1px solid $footer-color;
-                }
-            }
+          }
         }
+      }
     }
-}
 
-// End of Header style
+    // End of Header style
 
-// Footer style
-footer {
-    margin-top: 1rem;
+    // Footer style
+    footer {
+      margin-top: 1rem;
 
-    div:first-child {
+      div:first-child {
         font-size: 1.5rem;
         text-align: center;
         padding: 2rem;
-    }
+      }
 
-    .footer-1 {
+      .footer-1 {
         font-weight: bold;
         color: $secondary-color;
-    }
+      }
 
-    .footer-2 {
+      .footer-2 {
         font-weight: bold;
-    }
+      }
 
-    .info {
+      .info {
         justify-content: space-between;
+        align-items: center;
         background-color: $footer-color;
         color: #fff;
+        font-size: small;
         padding: 1rem;
 
-        font-size: small;
-
         li {
-            padding: 0 1rem;
-        }
-    }
-}
+          padding: .5rem 1rem;
 
-// End of Footer style
+          .socials {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+
+    // End of Footer style

@@ -27,12 +27,11 @@ a {
 }
 
 header {
-  position: relative;
   position: relative
 }
 
 header.bcg {
-  background: url("../img/tric_homepage_image.jpg") no-repeat top left/140%;
+  background: url("../img/tric_homepage_image.jpg") no-repeat top left/140vw;
   height: 64rem
 }
 
@@ -116,87 +115,6 @@ header nav .main-nav a:hover {
   border-bottom: 1px solid #595958
 }
 
-header.bcg1 {
-  background: url("../img/tric homepage image.jpg") no-repeat top left;
-  background-size: 140%;
-  height: 65rem
-}
-
-header.bcg3 {
-  background: url(../img/shutterstock_141854491.jpg) center center/cover;
-  height: 45rem
-}
-
-header .banner {
-  background-color: rgba(19, 172, 186, 0.8);
-  color: #fff;
-  text-align: center;
-  line-height: 1.5;
-  padding: 2rem;
-  width: 100%;
-  position: absolute;
-  bottom: 5rem
-}
-
-header .banner h1 {
-  margin: auto;
-  width: 80%;
-  border-bottom: 1px solid #fff
-}
-
-header nav {
-  position: relative;
-  padding-top: 2rem
-}
-
-header nav .login {
-  position: absolute;
-  top: 0rem;
-  right: 2rem
-}
-
-header nav .login li {
-  margin: 0 1px
-}
-
-header nav .login li a {
-  display: inline-block;
-  color: #fff;
-  padding: 0.3rem 2rem
-}
-
-header nav .login li:first-child {
-  background-color: #13abba
-}
-
-header nav .login li:last-child {
-  background-color: #1652a1
-}
-
-header nav .logo {
-  position: absolute;
-  top: 2rem;
-  left: 2rem
-}
-
-header nav .main-nav {
-  position: absolute;
-  top: 2rem;
-  right: 2rem
-}
-
-header nav .main-nav li {
-  padding: 0.5rem
-}
-
-header nav .main-nav a {
-  color: #595958
-}
-
-header nav .main-nav a:hover {
-  border-bottom: 1px solid #595958
-}
-
 footer {
   margin-top: 1rem
 }
@@ -218,14 +136,19 @@ footer .footer-2 {
 
 footer .info {
   justify-content: space-between;
+  align-items: center;
   background-color: #595958;
   color: #fff;
-  padding: 1rem;
-  font-size: small
+  font-size: small;
+  padding: 1rem
 }
 
 footer .info li {
-  padding: 0 1rem
+  padding: .5rem 1rem
+}
+
+footer .info li .socials {
+  font-size: 1.3rem
 }
 
 /*# sourceMappingURL=main.css.map */
