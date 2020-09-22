@@ -1,0 +1,23 @@
+@import "var";
+
+.location-text {
+    color: $footer-color;
+
+    text-align: center;
+    line-height: 1.5;
+    padding: 2rem;
+    width: 100%;
+
+  }
+
+  .map {
+      height:100%;
+      width:100%;
+  }
+
+  .faq-main {
+      background: $third-color;
+      color: white;
+      font-size: 0.8em;
+     
+  }
