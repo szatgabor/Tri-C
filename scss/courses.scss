@@ -43,7 +43,11 @@ header {
 
 	&.bcg8 {
 		background: url(../img/shutterstock_513458401.jpg) no-repeat center center / 95rem;
-		background-position-x: 0rem;
+		height: 45rem;
+	}
+
+	&.bcg9 {
+		background: url(../img/_8lr5250.jpg) no-repeat center center / cover;
 		height: 45rem;
 	}
 
@@ -319,18 +323,22 @@ main {
 			p {
 				margin-bottom: 1rem;
 			}
+
+			img {
+				width: 100%;
+			}
 		}
 
 		.doc-pic-1 {
-			width: 50rem;
-			background: url(../img/romagnoli-Copy.jpg) no-repeat top center / contain;
+			width: 45rem;
+			// background: url(../img/romagnoli-Copy.jpg) no-repeat top center / contain;
 			margin-right: 4rem;
 		}
 
 		.doc-pic-2 {
-			width: 30rem;
-			background: url(../img/AAEAAQAAAAAAAAfKAAAAJDk0ZWJhYzU4LTU1YjMtNDI2ZC05MzhlLWZhMmFlNTk3ZThjMQ.jpg)
-				no-repeat top center / 9rem;
+			width: 45rem;
+			// background: url(../img/AAEAAQAAAAAAAAfKAAAAJDk0ZWJhYzU4LTU1YjMtNDI2ZC05MzhlLWZhMmFlNTk3ZThjMQ.jpg)
+			// 	no-repeat top center / 9rem;
 			margin-right: 4rem;
 		}
 
