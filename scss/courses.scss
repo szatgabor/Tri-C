@@ -41,6 +41,12 @@ header {
 		height: 45rem;
 	}
 
+	&.bcg8 {
+		background: url(../img/shutterstock_513458401.jpg) no-repeat center center / 95rem;
+		background-position-x: 0rem;
+		height: 45rem;
+	}
+
 	.banner {
 		background-color: rgba(19, 172, 186, 0.8);
 		color: #fff;
@@ -297,8 +303,57 @@ main {
 			}
 		}
 	}
+	// End of courses-list style
+
+	// Small implant style
+	.small-implant {
+		justify-content: space-between;
+
+		& > div {
+			width: 45%;
+
+			h4 {
+				color: $third-color;
+			}
+
+			p {
+				margin-bottom: 1rem;
+			}
+		}
+
+		.doc-pic-1 {
+			width: 50rem;
+			background: url(../img/romagnoli-Copy.jpg) no-repeat top center / contain;
+			margin-right: 4rem;
+		}
+
+		.doc-pic-2 {
+			width: 30rem;
+			background: url(../img/AAEAAQAAAAAAAAfKAAAAJDk0ZWJhYzU4LTU1YjMtNDI2ZC05MzhlLWZhMmFlNTk3ZThjMQ.jpg)
+				no-repeat top center / 9rem;
+			margin-right: 4rem;
+		}
+
+		.doc-desc {
+			h4 {
+				color: #000;
+			}
+		}
+
+		.doc-1 {
+			margin-top: 1rem;
+		}
+	}
+
+	.register-course {
+		text-align: right;
+
+		button {
+			height: 2.2rem;
+			width: 6rem;
+		}
+	}
 }
-// End of courses-list style
 
 // Footer style
 footer {
