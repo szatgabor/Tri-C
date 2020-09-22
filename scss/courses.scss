@@ -51,7 +51,7 @@ header {
 		width: 100%;
 
 		position: absolute;
-		bottom: 5rem;
+		bottom: 2rem;
 
 		h1 {
 			margin: auto;
@@ -113,6 +113,119 @@ header {
 	}
 }
 // End of Header style
+
+// Courses first page style
+
+main {
+	width: 75%;
+	margin: 2rem auto;
+
+	font-size: small;
+
+	section:first-child {
+		h5 {
+			font-weight: lighter;
+			margin-bottom: 1rem;
+		}
+
+		hr {
+			margin: 1rem 0;
+		}
+
+		.courses-btns {
+			justify-content: space-between;
+			margin-bottom: 1rem;
+
+			button {
+				min-width: 49%;
+				height: 3rem;
+				cursor: pointer;
+			}
+		}
+	}
+	.btn-turq {
+		background-color: $secondary-color;
+		color: #fff;
+		border: 1px solid $secondary-color;
+
+		&:focus {
+			border: 1px solid $secondary-color;
+		}
+	}
+
+	section.calendar {
+		background-color: #dddddd;
+		padding: 0.7rem;
+
+		a {
+			color: $secondary-color;
+			font-weight: bold;
+		}
+
+		ul {
+			justify-content: space-between;
+		}
+
+		table {
+			width: 100%;
+			margin-top: 2rem;
+			background-color: #fff;
+			border: 5px solid #ccc;
+			border-collapse: collapse;
+
+			th {
+				background-color: #777777;
+				width: 5rem;
+				padding: 0.2rem;
+			}
+			td {
+				width: 5rem;
+				height: 5rem;
+				padding: 0.2rem;
+				border: 1px solid #ddd;
+			}
+
+			tr + tr {
+				text-align: left;
+
+				th {
+					background-color: #ececec;
+				}
+			}
+
+			.last-month {
+				th {
+					opacity: 0.2;
+
+					&:last-child {
+						opacity: 1;
+					}
+				}
+
+				&-cont td {
+					height: 12rem;
+				}
+			}
+
+			.next-month {
+				th {
+					opacity: 0.2;
+
+					&:first-child,
+					&:nth-child(2) {
+						opacity: 1;
+					}
+				}
+
+				td {
+					opacity: 0.2;
+				}
+			}
+		}
+	}
+}
+
+// End of first courses page style
 
 // Footer style
 footer {
