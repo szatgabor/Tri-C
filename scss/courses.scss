@@ -1,0 +1,335 @@
+@import "var";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo {
+	width: 20%;
+}
+
+.flex {
+	display: flex;
+}
+
+// Header style
+header {
+	position: relative;
+	&.bcg1 {
+		background: url("../img/tric\ homepage\ image.jpg") no-repeat top left;
+		background-size: 140%;
+		height: 65rem;
+	}
+	&.bcg3 {
+		background: url(../img/shutterstock_141854491.jpg) center center / cover;
+		height: 45rem;
+	}
+
+	.banner {
+		background-color: rgba(19, 172, 186, 0.8);
+		color: #fff;
+
+		text-align: center;
+		line-height: 1.5;
+		padding: 2rem;
+		width: 100%;
+
+		position: absolute;
+		bottom: 2rem;
+
+		h1 {
+			margin: auto;
+			width: 80%;
+			border-bottom: 1px solid #fff;
+		}
+	}
+
+	nav {
+		position: relative;
+		padding-top: 2rem;
+
+		.login {
+			position: absolute;
+			top: 0rem;
+			right: 2rem;
+
+			li {
+				margin: 0 1px;
+
+				a {
+					display: inline-block;
+					color: #fff;
+					padding: 0.3rem 2rem;
+				}
+
+				&:first-child {
+					background-color: $secondary-color;
+				}
+				&:last-child {
+					background-color: $third-color;
+				}
+			}
+		}
+
+		.logo {
+			position: absolute;
+			top: 2rem;
+			left: 2rem;
+		}
+
+		.main-nav {
+			position: absolute;
+			top: 2rem;
+			right: 2rem;
+
+			li {
+				padding: 0.5rem;
+			}
+
+			a {
+				color: $footer-color;
+
+				&:hover {
+					border-bottom: 1px solid $footer-color;
+				}
+			}
+		}
+	}
+}
+// End of Header style
+
+// Courses first page style
+
+main {
+	width: 75%;
+	margin: 2rem auto;
+
+	font-size: small;
+
+	.active-link {
+		font-weight: bold;
+	}
+
+	a {
+		color: $secondary-color;
+		font-weight: bold;
+	}
+
+	section:first-child {
+		h5 {
+			font-weight: lighter;
+			margin-bottom: 1rem;
+		}
+
+		hr {
+			margin: 1rem 0;
+		}
+
+		.courses-btns {
+			justify-content: space-between;
+			margin-bottom: 1rem;
+
+			button {
+				min-width: 49%;
+				height: 3rem;
+				cursor: pointer;
+			}
+		}
+	}
+	.btn-turq {
+		background-color: $secondary-color;
+		color: #fff;
+		border: 1px solid $secondary-color;
+
+		&:focus {
+			border: 1px solid $secondary-color;
+		}
+	}
+
+	section.calendar {
+		background-color: #dddddd;
+		padding: 0.7rem;
+
+		ul {
+			justify-content: space-between;
+		}
+
+		table {
+			width: 100%;
+			margin-top: 2rem;
+			background-color: #fff;
+			border: 5px solid #ccc;
+			border-collapse: collapse;
+
+			th {
+				background-color: #777777;
+				width: 5rem;
+				padding: 0.2rem;
+			}
+			td {
+				width: 5rem;
+				height: 5rem;
+				padding: 0.2rem;
+				border: 1px solid #ddd;
+			}
+
+			tr + tr {
+				text-align: left;
+
+				th {
+					background-color: #ececec;
+				}
+			}
+
+			.last-month {
+				th {
+					opacity: 0.2;
+
+					&:last-child {
+						opacity: 1;
+					}
+				}
+
+				&-cont td {
+					height: 12rem;
+				}
+			}
+
+			.next-month {
+				th {
+					opacity: 0.2;
+
+					&:first-child,
+					&:nth-child(2) {
+						opacity: 1;
+					}
+				}
+
+				td {
+					opacity: 0.2;
+				}
+			}
+		}
+	}
+	// End of first courses page style
+
+	// courses-list style
+	section.list {
+		.list-calendar {
+			background-color: #dddddd;
+			padding: 0.5rem;
+			width: 20%;
+			margin: 2rem auto;
+
+			justify-content: center;
+		}
+
+		.list-items {
+			flex-direction: column;
+
+			article {
+				width: 100%;
+				border-bottom: 1px solid $footer-color;
+				padding: 1rem 0;
+				justify-content: space-between;
+
+				img {
+					width: 45%;
+					height: 12rem;
+				}
+
+				.cropped-img-1 {
+					width: 45%;
+					background: url("../img/overstitch-bariatric.jpg") no-repeat center center /
+						cover;
+				}
+
+				.cropped-img-2 {
+					width: 45%;
+					background: url("../img/4×1-e1445943046127.png") no-repeat center center / cover;
+				}
+
+				.list-text {
+					width: 50%;
+					flex-direction: column;
+					justify-content: space-between;
+
+					h3 {
+						color: $primary-color;
+					}
+					h3,
+					h5,
+					span {
+						margin: 0.5rem 0;
+					}
+
+					.read-more {
+						text-align: right;
+
+						a {
+							color: #000;
+							font-weight: lighter;
+						}
+
+						i {
+							color: $secondary-color;
+							border: 1px solid $secondary-color;
+							padding: 0.1rem 0.3rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// End of courses-list style
+
+// Footer style
+footer {
+	margin-top: 1rem;
+
+	div:first-child {
+		font-size: 1.5rem;
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.footer-1 {
+		font-weight: bold;
+		color: $secondary-color;
+	}
+
+	.footer-2 {
+		font-weight: bold;
+	}
+
+	.info {
+		justify-content: space-between;
+		background-color: $footer-color;
+		color: #fff;
+		padding: 1rem;
+
+		font-size: small;
+
+		li {
+			padding: 0 1rem;
+		}
+	}
+}
+// End of Footer style
