@@ -8,6 +8,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 li {
   display: inline-block;
   list-style: none;
@@ -30,9 +34,9 @@ header {
   position: relative;
 }
 
-header.bcg1 {
-  background: url("../img/tric homepage image.jpg") no-repeat top left/140%;
-  height: 45rem;
+header.bcg {
+  background: url("../img/tric_homepage_image.jpg") no-repeat top left/140%;
+  height: 64rem;
 }
 
 header.bcg2 {
@@ -45,8 +49,13 @@ header.bcg3 {
   height: 45rem;
 }
 
+header.bcg7 {
+  background: url(../img/shutterstock_385477789.jpg) no-repeat top left/140%;
+  height: 45rem;
+}
+
 header .banner {
-  background-color: rgba(19, 172, 186, 0.8);
+  background-color: rgba(69, 139, 202, 0.8);
   color: #fff;
   text-align: center;
   line-height: 1.5;

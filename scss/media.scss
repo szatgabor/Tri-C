@@ -8,11 +8,13 @@
 body {
     .container {
         display: flex;
+        margin-bottom: 15%;
 
         h3 {
             color: $secondary-color;
             font-size: 0.5rem;
             padding-top: 4%;
+
         }
 
         h4 {
