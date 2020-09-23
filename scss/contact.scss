@@ -1,48 +1,51 @@
 @import "var";
 
 
- 
+.upper {
+    bottom: 5rem;
+}
 
-    .location-text {
-        color: $footer-color;
-    
-        text-align: center;
-        line-height: 1.5;
-        padding: 2rem;
-        width: 100%;
-    
-      }
-    
-      .map {
-          height:100%;
-          width:100%;
-      }
-    
-     
-      .contactform {
-        margin-right: 20rem;
-        padding: 2rem 3rem;
+.location-text {
+    color: $footer-color;
+
+    text-align: center;
+    line-height: 1.5;
+    padding: 2rem;
+    width: 100%;
+
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+
+.contactform {
+    margin-right: 20rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+
+    div {
+        padding-bottom: 2rem;
         display: flex;
-        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
 
-        div {
-            padding-bottom: 2rem;
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-start;
-    
-    
-            input {
-                width: 35rem;
-                background-color: $secondary-color;
-                height: 3rem;
-                border: none;
-                margin-left: 1rem;
 
-      }
+        input {
+            width: 35rem;
+            background-color: $secondary-color;
+            height: 3rem;
+            border: none;
+            margin-left: 1rem;
+
+        }
     }
 
 }
+
 #subject {
     width: 35rem;
     background-color: $secondary-color;
@@ -50,6 +53,7 @@
     border: none;
     margin-left: 1rem;
 }
+
 .sub-btn {
     background-color: $third-color;
     color: white;
@@ -65,34 +69,34 @@
     border: 2px solid $third-color;
 }
 
-    
-      .name .email .phone .subject {
-          background-color: $primary-color;
-          color: white; 
-      }
-    
-      .faq-main {
-          box-sizing: border-box;
-          padding: 4em 4em;
-          align-items: center;
-          color: white;
-          font-size: 0.8em;
-          column-count: 2; 
-          background: linear-gradient(rgba(22, 82, 161, 0.8), rgba(22, 82, 161, 0.8)), url(../img/shutterstock_232951672.jpg) no-repeat top left/cover;
-          
-        }
 
-        .question {
-            font-weight: bolder;
-            
-        }
-    
-        input[type=text] {
-            background-color: $primary-color-opacity;
-            color: white;
-            width: 100%;
-            box-sizing: border-box;
-            padding: 0.8em 0.8em;
-            margin: .6 0;
+.name .email .phone .subject {
+    background-color: $primary-color;
+    color: white;
+}
 
-          }
+.faq-main {
+    box-sizing: border-box;
+    padding: 4em 4em;
+    align-items: center;
+    color: white;
+    font-size: 0.8em;
+    column-count: 2;
+    background: linear-gradient(rgba(22, 82, 161, 0.8), rgba(22, 82, 161, 0.8)), url(../img/shutterstock_232951672.jpg) no-repeat top left/cover;
+
+}
+
+.question {
+    font-weight: bolder;
+
+}
+
+input[type=text] {
+    background-color: $primary-color-opacity;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8em 0.8em;
+    margin: .6 0;
+
+}
