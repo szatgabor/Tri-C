@@ -60,15 +60,17 @@ header {
         background: url(../img/shutterstock_244312780.jpg);
     }
 
+    &.bcg-membership {
+        background: url(../img/shutterstock_307777268.jpg);
+    }
+
     .banner {
         background-color: $primary-color-opacity;
         color: #fff;
-
         text-align: center;
         line-height: 1.5;
         padding: 2rem;
         width: 100%;
-
         position: absolute;
         bottom: 2rem;
 
