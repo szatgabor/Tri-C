@@ -38,8 +38,10 @@ header {
   }
 
   &.bcg2 {
-    background: url(../img/shutterstock_588870536.jpg) no-repeat top left / 140%;
-    height: 45rem;
+    background: url(../img/shutterstock_588870536.jpg) no-repeat top left / cover;
+    height: 64rem;
+    transform: scale(-1);
+    transform: scaleX(-1);
   }
 
   &.bcg3 {

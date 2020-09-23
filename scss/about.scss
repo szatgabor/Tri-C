@@ -1,0 +1,13 @@
+@import 'var';
+
+header {
+    .upper {
+        bottom: 18rem;
+    }
+}
+
+nav,
+div.banner {
+    transform: scale(-1);
+    transform: scaleX(-1);
+}
