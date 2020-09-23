@@ -1,7 +1,7 @@
 @import "var";
 
 .reg-container {
-    margin-right: 15rem;
+    margin-right: 20rem;
     padding: 2rem 3rem;
     display: flex;
     flex-direction: column;
@@ -15,10 +15,11 @@
 
 
         input {
-            width: 30rem;
+            width: 35rem;
             background-color: $secondary-color;
             height: 3rem;
             border: none;
+            margin-left: 1rem;
 
 
 
