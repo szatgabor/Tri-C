@@ -52,6 +52,14 @@ header {
     height: 45rem;
   }
 
+  &.bcg-media-article {
+    background: url(../img/shutterstock_244312780.jpg);
+  }
+
+  &.bcg-membership {
+    background: url(../img/shutterstock_307777268.jpg);
+  }
+
   .banner {
     background-color: $primary-color-opacity;
     color: #fff;
@@ -110,45 +118,6 @@ header {
         left: 2rem;
       }
 
-      .main-nav {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-
-        li {
-          padding: 0.5rem;
-        }
-
-        a {
-          color: $footer-color;
-
-          &:hover {
-            border-bottom: 1px solid $footer-color;
-          }
-        }
-      }
-
-      position: relative;
-
-      &.bcg1 {
-        background: url("../img/tric\ homepage\ image.jpg") no-repeat top left;
-        background-size: 140%;
-        height: 65rem;
-      }
-
-      &.bcg3 {
-        background: url(../img/shutterstock_141854491.jpg) center center / cover;
-        height: 45rem;
-      }
-
-      &.bcg-media-article {
-        background: url(../img/shutterstock_244312780.jpg);
-      }
-
-      &.bcg-membership {
-        background: url(../img/shutterstock_307777268.jpg);
-      }
-
       .banner {
         background-color: $primary-color-opacity;
         color: #fff;
@@ -192,12 +161,6 @@ header {
               background-color: $third-color;
             }
           }
-        }
-
-        .logo {
-          position: absolute;
-          top: 2rem;
-          left: 2rem;
         }
 
         .main-nav {
