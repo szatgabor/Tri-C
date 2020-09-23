@@ -1,0 +1,46 @@
+@import "var";
+
+.reg-container {
+    margin-right: 20rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+
+
+    div {
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+
+
+        input {
+            width: 35rem;
+            background-color: $secondary-color;
+            height: 3rem;
+            border: none;
+            margin-left: 1rem;
+
+
+
+        }
+    }
+
+}
+
+/* Style for the register button */
+.reg-btn {
+
+    background-color: $third-color;
+    color: white;
+    padding: 0.7rem 2rem;
+    border: none;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.reg-btn:hover {
+    background-color: white;
+    color: $third-color;
+    border: 2px solid $third-color;
+}
