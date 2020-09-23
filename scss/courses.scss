@@ -186,7 +186,6 @@ main {
 		}
 
 		table {
-			width: 100%;
 			margin-top: 2rem;
 			background-color: #fff;
 			border: 5px solid #ccc;
@@ -259,7 +258,6 @@ main {
 			flex-direction: column;
 
 			article {
-				width: 100%;
 				border-bottom: 1px solid $footer-color;
 				padding: 1rem 0;
 				justify-content: space-between;
@@ -317,6 +315,7 @@ main {
 	// Small_implant, laparoscopy & gateway style
 	.small-implant {
 		justify-content: space-between;
+		text-align: justify;
 
 		ul {
 			margin-bottom: 1rem;
@@ -402,3 +401,78 @@ footer {
 	}
 }
 // End of Footer style
+
+// Media queries
+
+@media screen and (max-width: 1279px) {
+	// Laparoscopy.html
+	main {
+		section:first-child .courses-btns {
+			flex-direction: column;
+
+			button {
+				margin-bottom: 1rem;
+			}
+		}
+		.small-implant {
+			flex-direction: column;
+			align-items: center;
+
+			.left-col,
+			.right-col {
+				width: 70%;
+			}
+		}
+
+		// courses-list
+		section.list {
+			.list-calendar {
+				width: 50%;
+			}
+
+			.list-items {
+				width: 100%;
+
+				article {
+					flex-direction: column;
+
+					.list-text {
+						width: 100%;
+					}
+					img {
+						width: 100%;
+					}
+
+					.cropped-img-1,
+					.cropped-img-2 {
+						height: 10rem;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	main {
+		.small-implant {
+			.doc-1,
+			.doc-2,
+			.doc-3 {
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.doc-pic {
+				width: auto;
+				margin: 1rem;
+			}
+		}
+
+		.table-overflow {
+			overflow: auto;
+		}
+	}
+}
