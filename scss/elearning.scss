@@ -10,21 +10,15 @@
     }
 }
 
-/* @media (max-width:425px) {
-    header {
-        &.bcg5 {
-            background: url(../img/shutterstock_744705484.jpg) no-repeat top left;
-
-
-        }
-    }
+@media (max-width:425px) {
 
     .text {
-        margin: 2rem 7rem;
+        margin: 2rem;
 
         p {
-
+            column-count: 1;
             text-align: justify;
         }
 
-    } */
+    }
+}
