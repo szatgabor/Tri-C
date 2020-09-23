@@ -49,8 +49,9 @@ header {
 	}
 
 	&.bcg10 {
-		background: url(../img/pelvic-laparoscopy_thumb.jpg) no-repeat top center / cover;
-		height: 45rem;
+		<<<<<<< HEAD background: url(../img/pelvic-laparoscopy_thumb.jpg) no-repeat top center / cover;
+		=======background: url(../img/pelvic-laparoscopy_thumb.jpg) no-repeat center center / cover;
+		>>>>>>>origin/contactNEW height: 45rem;
 	}
 
 	&.bcg12 {
@@ -191,7 +192,8 @@ main {
 		}
 
 		table {
-			margin-top: 2rem;
+			<<<<<<< HEAD=======width: 100%;
+			>>>>>>>origin/contactNEW margin-top: 2rem;
 			background-color: #fff;
 			border: 5px solid #ccc;
 			border-collapse: collapse;
@@ -203,8 +205,9 @@ main {
 			}
 
 			td {
-				width: 15rem;
-				height: 5rem;
+				<<<<<<< HEAD width: 15rem;
+				=======width: 5rem;
+				>>>>>>>origin/contactNEW height: 5rem;
 				padding: 0.2rem;
 				border: 1px solid #ddd;
 			}
@@ -265,7 +268,8 @@ main {
 			flex-direction: column;
 
 			article {
-				border-bottom: 1px solid $footer-color;
+				<<<<<<< HEAD=======width: 100%;
+				>>>>>>>origin/contactNEW border-bottom: 1px solid $footer-color;
 				padding: 1rem 0;
 				justify-content: space-between;
 
@@ -323,9 +327,9 @@ main {
 	// Small_implant, laparoscopy & gateway style
 	.small-implant {
 		justify-content: space-between;
-		text-align: justify;
+		<<<<<<< HEAD text-align: justify;
 
-		ul {
+		=======>>>>>>>origin/contactNEW ul {
 			margin-bottom: 1rem;
 
 			li {
@@ -350,7 +354,8 @@ main {
 		}
 
 		.doc-pic {
-			margin-right: 4rem;
+			<<<<<<< HEAD=======width: 45rem;
+			>>>>>>>origin/contactNEW margin-right: 4rem;
 		}
 
 		.doc-desc {
