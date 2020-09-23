@@ -45,6 +45,10 @@ header.bcg3 {
   height: 45rem
 }
 
+header.bcg-media-article {
+  background: url(../img/shutterstock_244312780.jpg);
+}
+
 header .banner {
   background-color: rgba(69, 139, 202, 0.8);
   color: #fff;

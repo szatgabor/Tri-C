@@ -141,8 +141,12 @@ header {
         height: 45rem;
       }
 
+      &.bcg-media-article {
+        background: url(../img/shutterstock_244312780.jpg);
+      }
+
       .banner {
-        background-color: rgba(19, 172, 186, 0.8);
+        background-color: $primary-color-opacity;
         color: #fff;
 
         text-align: center;
