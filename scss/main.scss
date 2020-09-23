@@ -61,21 +61,68 @@ header {
   }
 
   .banner {
+
     background-color: $primary-color-opacity;
     color: #fff;
 
-    .banner {
+    text-align: center;
+    line-height: 1.5;
+    padding: 2rem;
+    width: 100%;
 
+    position: absolute;
+    bottom: 2rem;
+
+    h1 {
+      margin: auto;
+      width: 80%;
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  nav {
+    position: relative;
+    padding-top: 2rem;
+
+    .login {
+      position: absolute;
+      top: 0rem;
+      right: 2rem;
+
+      li {
+        margin: 0 1px;
+
+        a {
+          display: inline-block;
+          color: #fff;
+          padding: 0.3rem 2rem;
+        }
+
+        &:first-child {
+          background-color: $secondary-color;
+        }
+
+        &:last-child {
+          background-color: $third-color;
+        }
+      }
+    }
+
+    .logo {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+    }
+
+    .banner {
       background-color: $primary-color-opacity;
       color: #fff;
-
       text-align: center;
       line-height: 1.5;
       padding: 2rem;
       width: 100%;
-
       position: absolute;
-      bottom: 2rem;
+      bottom: 5rem;
 
       h1 {
         margin: auto;
@@ -112,114 +159,64 @@ header {
         }
       }
 
-      .logo {
+      .main-nav {
         position: absolute;
         top: 2rem;
-        left: 2rem;
-      }
-
-      .banner {
-        background-color: $primary-color-opacity;
-        color: #fff;
-        text-align: center;
-        line-height: 1.5;
-        padding: 2rem;
-        width: 100%;
-        position: absolute;
-        bottom: 5rem;
-
-        h1 {
-          margin: auto;
-          width: 80%;
-          border-bottom: 1px solid #fff;
-        }
-      }
-
-      nav {
-        position: relative;
-        padding-top: 2rem;
-
-        .login {
-          position: absolute;
-          top: 0rem;
-          right: 2rem;
-
-          li {
-            margin: 0 1px;
-
-            a {
-              display: inline-block;
-              color: #fff;
-              padding: 0.3rem 2rem;
-            }
-
-            &:first-child {
-              background-color: $secondary-color;
-            }
-
-            &:last-child {
-              background-color: $third-color;
-            }
-          }
-        }
-
-        .main-nav {
-          position: absolute;
-          top: 2rem;
-          right: 2rem;
-
-          li {
-            padding: 0.5rem;
-          }
-
-          a {
-            color: $footer-color;
-
-            &:hover {
-              border-bottom: 1px solid $footer-color;
-            }
-          }
-        }
-      }
-    }
-
-    // End of Header style
-
-    // Footer style
-    footer {
-      margin-top: 1rem;
-
-      div:first-child {
-        font-size: 1.5rem;
-        text-align: center;
-        padding: 2rem;
-      }
-
-      .footer-1 {
-        font-weight: bold;
-        color: $secondary-color;
-      }
-
-      .footer-2 {
-        font-weight: bold;
-      }
-
-      .info {
-        justify-content: space-between;
-        align-items: center;
-        background-color: $footer-color;
-        color: #fff;
-        font-size: small;
-        padding: 1rem;
+        right: 2rem;
 
         li {
-          padding: .5rem 1rem;
+          padding: 0.5rem;
+        }
 
-          .socials {
-            font-size: 1.3rem;
+        a {
+          color: $footer-color;
+
+          &:hover {
+            border-bottom: 1px solid $footer-color;
           }
         }
       }
     }
+  }
 
-    // End of Footer style
+  // End of Header style
+
+  // Footer style
+  footer {
+    margin-top: 1rem;
+
+    div:first-child {
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .footer-1 {
+      font-weight: bold;
+      color: $secondary-color;
+    }
+
+    .footer-2 {
+      font-weight: bold;
+    }
+
+    .info {
+      justify-content: space-between;
+      align-items: center;
+      background-color: $footer-color;
+      color: #fff;
+      font-size: small;
+      padding: 1rem;
+
+      li {
+        padding: .5rem 1rem;
+
+        .socials {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+// End of Footer style
