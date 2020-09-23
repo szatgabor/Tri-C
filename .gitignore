@@ -1,3 +1,8 @@
 node_modules
+<<<<<<< HEAD
 **/main.css.map
 **/media.css.map
+=======
+**/*.map
+
+>>>>>>> c9b0b7e93e929c9d034b8056c53b66c9546eab10
