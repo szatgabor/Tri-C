@@ -180,13 +180,16 @@ footer .info li .socials {
   footer div:first-child {
     font-size: 0.8rem;
   }
+
   .info {
     flex-direction: column-reverse;
   }
+
   .info .flex {
     margin-bottom: 1rem;
     justify-content: space-evenly;
   }
+
   .info ul:last-child {
     flex-direction: column;
     align-items: center;
@@ -201,37 +204,47 @@ footer .info li .socials {
   main section:first-child .courses-btns {
     flex-direction: column;
   }
+
   main section:first-child .courses-btns button {
     margin-bottom: 1rem;
   }
+
   main .small-implant {
     flex-direction: column;
     align-items: center;
   }
+
   main .small-implant .left-col,
   main .small-implant .right-col {
     width: 70%;
   }
+
   main section.list .list-calendar {
     width: 50%;
   }
+
   main section.list .list-items {
     width: 100%;
   }
+
   main section.list .list-items article {
     flex-direction: column;
   }
+
   main section.list .list-items article .list-text {
     width: 100%;
   }
+
   main section.list .list-items article img {
     width: 100%;
   }
+
   main section.list .list-items article .cropped-img-1,
   main section.list .list-items article .cropped-img-2 {
     height: 10rem;
     width: 100%;
   }
+
   header nav {
     /*
 	  * Just a quick hamburger
@@ -247,9 +260,11 @@ footer .info li .socials {
 	  * And let's slide it in from the left
 	  */
   }
+
   header nav .main-nav {
     display: none;
   }
+
   header nav #menuToggle {
     display: block;
     position: absolute;
@@ -258,16 +273,19 @@ footer .info li .socials {
     z-index: 1;
     user-select: none;
   }
+
   header nav #menuToggle a {
     text-decoration: none;
     color: #595958;
     transition: color 0.3s ease;
   }
+
   header nav #menuToggle a:hover,
   header nav #menuToggle a:active {
     color: #458bca;
     text-decoration: underline;
   }
+
   header nav #menuToggle input {
     display: block;
     width: 40px;
@@ -282,6 +300,7 @@ footer .info li .socials {
     /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
+
   header nav #menuToggle span {
     display: block;
     width: 33px;
@@ -294,24 +313,30 @@ footer .info li .socials {
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
+
   header nav #menuToggle span:first-child {
     transform-origin: 0% 0%;
   }
+
   header nav #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
-  header nav #menuToggle input:checked ~ span {
+
+  header nav #menuToggle input:checked~span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
   }
-  header nav #menuToggle input:checked ~ span:nth-last-child(3) {
+
+  header nav #menuToggle input:checked~span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-  header nav #menuToggle input:checked ~ span:nth-last-child(2) {
+
+  header nav #menuToggle input:checked~span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
+
   header nav #menu {
     position: absolute;
     width: 300px;
@@ -325,11 +350,13 @@ footer .info li .socials {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     right: -6rem;
   }
+
   header nav #menu li {
     padding: 10px 0;
     font-size: 1.1rem;
   }
-  header nav #menuToggle input:checked ~ ul {
+
+  header nav #menuToggle input:checked~ul {
     transform: none;
   }
 }
@@ -338,12 +365,15 @@ footer .info li .socials {
   footer div:first-child {
     font-size: 1rem;
   }
+
   .info {
     flex-direction: column-reverse;
   }
+
   .info .flex {
     margin-bottom: 1rem;
     justify-content: space-evenly;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
