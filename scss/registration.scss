@@ -14,8 +14,14 @@
         align-items: flex-start;
         color: $footer-color;
 
+        label {
+            text-align: left;
+            width: 10rem;
+        }
+
         input {
-            width: 35rem;
+            display: block;
+            width: 30rem;
             background-color: $register-color;
             height: 3rem;
             border: none;
@@ -47,18 +53,24 @@
             height: 30rem;
         }
 
-
         .reg-container {
-            display: flex;
+
             flex-direction: column;
             margin-right: 5%;
 
             div {
+                display: block;
+                text-align: center;
+
                 padding-bottom: 2rem;
-                font-size: small;
+
+                label {
+                    text-align: left;
+                }
 
                 input {
-                    width: 10rem;
+                    display: block;
+                    width: 100%;
 
                     height: 2rem;
                     border: none;
@@ -85,13 +97,21 @@
     }
 
     .reg-container {
-        margin-right: 20%;
+        margin-right: 0;
+        flex-direction: column;
+        text-align: center;
 
         div {
+            display: block;
             padding-bottom: 2rem;
 
+            label {
+                text-align: left;
+            }
+
             input {
-                width: 15rem;
+
+                width: 100%;
                 height: 2rem;
             }
         }
@@ -101,13 +121,22 @@
 
 @media (min-width:769px) and (max-width: 1024px) {
     .reg-container {
+
         margin-right: 20%;
+        margin-left: 20%;
 
         div {
+
             padding-bottom: 2rem;
+            text-align: center;
+
+            label {
+                text-align: left;
+            }
 
             input {
-                width: 20rem;
+
+                width: 100%;
                 height: 2rem;
             }
         }
