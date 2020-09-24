@@ -53,13 +53,24 @@ header {
   &.bcg5 {
     background: url(../img/shutterstock_744705484.jpg) no-repeat top center / cover;
     height: 45rem;
-
   }
-
 
   &.bcg6 {
     background: url(../img/44rtf.jpg) top left / cover;
     height: 50rem;
+  }
+
+  &.bcg7 {
+    background: url(../img/shutterstock_385477789.jpg) no-repeat top left / 140%;
+    height: 45rem;
+  }
+
+  &.bcg-media-article {
+    background: url(../img/shutterstock_244312780.jpg);
+  }
+
+  &.bcg-membership {
+    background: url(../img/shutterstock_307777268.jpg);
   }
 }
 

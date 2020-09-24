@@ -41,6 +41,10 @@ body {
 
         li {
             display: block;
+
+            span {
+                color: $secondary-color;
+            }
         }
     }
 }

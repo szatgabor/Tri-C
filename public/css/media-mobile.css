@@ -1,0 +1,71 @@
+body {
+  width: 100vw;
+}
+
+body .bcg7 {
+  height: 50vh;
+}
+
+body .bcg7 .banner {
+  padding: 5px 1%;
+  bottom: 0%;
+}
+
+body .bcg7 .banner h1,
+body .bcg7 .banner h3 {
+  font-size: 0.8rem;
+}
+
+body .container {
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+body .container .side-bar {
+  align-items: center;
+  height: 20px;
+  width: auto;
+}
+
+body .container .side-bar a {
+  visibility: hidden;
+}
+
+body .container .side-bar h3 {
+  font-size: 0.9rem;
+}
+
+body .container .side-bar:hover {
+  height: auto;
+}
+
+body .container .side-bar:hover a {
+  visibility: visible;
+}
+
+body .container .whole-content {
+  margin: 3% 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+body .container .whole-content .content {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  padding: 0;
+}
+
+body .container .whole-content .content .content-left {
+  height: 5rem;
+}
+
+body .container .whole-content .content .content-right {
+  text-align: justify;
+  width: 90%;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=media-mobile.css.map */
