@@ -37,4 +37,8 @@ body .content p {
 body .content li {
   display: block;
 }
+
+body .content li span {
+  color: #13abba;
+}
 /*# sourceMappingURL=membership.css.map */

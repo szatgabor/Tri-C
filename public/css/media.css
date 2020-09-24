@@ -10,17 +10,19 @@ body .container {
 
 body .container h3 {
   color: #13abba;
-  font-size: 0.5rem;
+  font-size: 0.9rem;
   padding-top: 4%;
 }
 
 body .container h4 {
   color: var(--light-gray);
   padding-bottom: 4%;
+  font-size: 0.9rem;
 }
 
 body .container p {
   color: var(--gray-color);
+  font-size: 0.9rem;
 }
 
 body .container .side-bar {
@@ -29,7 +31,7 @@ body .container .side-bar {
   flex-direction: column;
   padding: 2% 8%;
   margin-top: 27px;
-  font-size: 0.5rem;
+  font-size: 0.9rem;
   width: 30%;
 }
 
@@ -75,7 +77,7 @@ body .container .whole-content .content .content-right {
 body .container .whole-content .content .content-right a {
   color: var(--gray-color);
   float: right;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 
 body .container .whole-content .content .content-right a i {

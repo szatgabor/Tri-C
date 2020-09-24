@@ -12,18 +12,21 @@ body {
 
         h3 {
             color: $secondary-color;
-            font-size: 0.5rem;
+            font-size: 0.9rem;
             padding-top: 4%;
 
         }
 
+
         h4 {
             color: var(--light-gray);
             padding-bottom: 4%;
+            font-size: 0.9rem;
         }
 
         p {
             color: var(--gray-color);
+            font-size: 0.9rem;
         }
 
         .side-bar {
@@ -32,7 +35,7 @@ body {
             flex-direction: column;
             padding: 2% 8%;
             margin-top: 27px;
-            font-size: 0.5rem;
+            font-size: 0.9rem;
             width: 30%;
 
             h3 {
@@ -75,7 +78,7 @@ body {
                     a {
                         color: var(--gray-color);
                         float: right;
-                        font-size: 0.4rem;
+                        font-size: 0.7rem;
 
                         i {
                             color: $secondary-color;

@@ -44,7 +44,7 @@ header .upper {
 .our-courses a figure figcaption {
   font-size: 1rem;
   font-weight: bold;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .our-courses a figure .cropped1 {
@@ -70,7 +70,7 @@ header .upper {
   background-color: #1652a1;
   color: #fff;
   text-align: center;
-  padding: .2rem;
+  padding: 0.2rem;
   border-top: 1px solid #fff;
 }
 
@@ -149,7 +149,7 @@ header .upper {
     height: 61vh;
   }
   body .bcg .upper {
-    padding: 3% 0;
+    padding: 3% 2%;
     bottom: 2%;
   }
   body .bcg .upper h1,
@@ -163,7 +163,7 @@ header .upper {
     padding: 3%;
   }
   body .company-info p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: left;
   }
   body .our-courses {

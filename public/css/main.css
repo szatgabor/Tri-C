@@ -57,6 +57,19 @@ header.bcg6 {
   height: 50rem;
 }
 
+header.bcg7 {
+  background: url(../img/shutterstock_385477789.jpg) no-repeat top left/140%;
+  height: 45rem;
+}
+
+header.bcg-media-article {
+  background: url(../img/shutterstock_244312780.jpg);
+}
+
+header.bcg-membership {
+  background: url(../img/shutterstock_307777268.jpg);
+}
+
 .banner {
   background-color: rgba(69, 139, 202, 0.8);
   color: #fff;
