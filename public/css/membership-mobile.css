@@ -1,11 +1,2 @@
-body .banner {
-  padding: 0 5px;
-}
-
-body .content {
-  width: 100vw;
-  font-size: 15px;
-  padding: 6%;
-  text-align: left;
-}
+body .banner{padding:0 5px}body .content{width:100vw;font-size:15px;padding:6%;text-align:left}
 /*# sourceMappingURL=membership-mobile.css.map */
