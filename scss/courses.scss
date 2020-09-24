@@ -392,41 +392,6 @@ main {
 	// End small_implant, laparoscopy & gateway style
 }
 
-// Footer style
-footer {
-	margin-top: 1rem;
-
-	div:first-child {
-		font-size: 1.5rem;
-		text-align: center;
-		padding: 2rem;
-	}
-
-	.footer-1 {
-		font-weight: bold;
-		color: $secondary-color;
-	}
-
-	.footer-2 {
-		font-weight: bold;
-	}
-
-	.info {
-		justify-content: space-between;
-		background-color: $footer-color;
-		color: #fff;
-		padding: 1rem;
-
-		font-size: small;
-
-		li {
-			padding: 0 1rem;
-		}
-	}
-}
-
-// End of Footer style
-
 // Media queries
 
 @media screen and (max-width: 1279px) {
