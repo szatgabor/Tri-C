@@ -1,2 +1,29 @@
-.text{margin:2rem 7rem}.text p{column-count:2;column-gap:2rem;text-align:justify}
+.text {
+  margin: 2rem 7rem;
+}
+
+.text p {
+  column-count: 2;
+  column-gap: 2rem;
+  text-align: justify;
+}
+
+/* @media (max-width:425px) {
+    header {
+        &.bcg5 {
+            background: url(../img/shutterstock_744705484.jpg) no-repeat top left;
+
+
+        }
+    }
+
+    .text {
+        margin: 2rem 7rem;
+
+        p {
+
+            text-align: justify;
+        }
+
+    } */
 /*# sourceMappingURL=elearning.css.map */

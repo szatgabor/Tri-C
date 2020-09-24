@@ -16,6 +16,7 @@ body .banner h1 {
 }
 
 body .container {
+  justify-content: center;
   padding: 0;
   width: 100%;
 }
@@ -28,9 +29,10 @@ body .container .article-content {
 }
 
 body .container .article-pictures {
-  flex-direction: column;
   margin: 0 auto;
+  display: block;
   width: 80%;
+  padding: 0;
 }
 
 body .container .article-pictures .image1,
@@ -39,7 +41,7 @@ body .container .article-pictures .image3 {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
-  margin-right: 0;
+  text-align: center;
 }
 
 body .container .article-pictures img {

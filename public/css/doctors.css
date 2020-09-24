@@ -1,2 +1,40 @@
-header .upper{bottom:5rem}header.bcg{height:52rem}header .banner{background-color:rgba(19,171,186,0.8)}header .banner h1{padding-bottom:1rem}header .banner h3{padding-top:1rem}.doctors-container-row{display:flex;justify-content:flex-start}.doctors-container-row .doctor{width:50%;padding:1rem 7rem}.doctors-container-row .doctor .demian{height:55vh;background:url(../img/ED_0027_400x400.jpg) no-repeat left/72%}.doctors-container-row .doctor .katemorse{height:55vh;background:url(../img/AAEAAQAAAAAAAAJAAAAAJDhhMzYxNzJkLWVhZDAtNGM2MC05OWZkLTY4MmE2NmIzN2U1Zg.jpg) no-repeat left/70%}
+header .upper {
+  bottom: 5rem;
+}
+
+header.bcg {
+  height: 52rem;
+}
+
+header .banner {
+  background-color: rgba(19, 171, 186, 0.8);
+}
+
+header .banner h1 {
+  padding-bottom: 1rem;
+}
+
+header .banner h3 {
+  padding-top: 1rem;
+}
+
+.doctors-container-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.doctors-container-row .doctor {
+  width: 50%;
+  padding: 1rem 7rem;
+}
+
+.doctors-container-row .doctor .demian {
+  height: 55vh;
+  background: url(../img/ED_0027_400x400.jpg) no-repeat left/72%;
+}
+
+.doctors-container-row .doctor .katemorse {
+  height: 55vh;
+  background: url(../img/AAEAAQAAAAAAAAJAAAAAJDhhMzYxNzJkLWVhZDAtNGM2MC05OWZkLTY4MmE2NmIzN2U1Zg.jpg) no-repeat left/70%;
+}
 /*# sourceMappingURL=doctors.css.map */
