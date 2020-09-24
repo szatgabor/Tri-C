@@ -1,12 +1,12 @@
 body h1 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 200%;
   font-weight: lighter;
 }
 
 body h3 {
-  font-size: 0.8rem;
-  line-height: 250%;
+  font-size: 1.2rem;
+  line-height: 120%;
   font-weight: lighter;
 }
 
@@ -17,16 +17,16 @@ body .bcg-membership {
 }
 
 body .bcg-membership .banner {
-  height: 20%;
+  height: auto;
   bottom: 5%;
-  padding: 0;
+  padding: 1% 0;
 }
 
 body .content {
   padding-left: 20%;
   padding-right: 30%;
   padding-top: 2%;
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 
 body .content p {
@@ -40,5 +40,17 @@ body .content li {
 
 body .content li span {
   color: #13abba;
+}
+
+@media screen and (max-width: 768px) {
+  body .banner {
+    padding: 0 5px;
+  }
+  body .content {
+    width: 100vw;
+    font-size: 15px;
+    padding: 6%;
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=membership.css.map */

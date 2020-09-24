@@ -3,14 +3,14 @@
 body {
 
     h1 {
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 200%;
         font-weight: lighter;
     }
 
     h3 {
-        font-size: 0.8rem;
-        line-height: 250%;
+        font-size: 1.2rem;
+        line-height: 120%;
         font-weight: lighter;
     }
 
@@ -21,9 +21,9 @@ body {
         background-repeat: no-repeat;
 
         .banner {
-            height: 20%;
+            height: auto;
             bottom: 5%;
-            padding: 0;
+            padding: 1% 0;
         }
     }
 
@@ -32,7 +32,7 @@ body {
         padding-left: 20%;
         padding-right: 30%;
         padding-top: 2%;
-        font-size: 0.6rem;
+        font-size: 1rem;
 
         p {
             margin-bottom: 5%;
@@ -47,4 +47,20 @@ body {
             }
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        .banner {
+            padding: 0 5px;
+        }
+
+        .content {
+            width: 100vw;
+            font-size: 15px;
+            padding: 6%;
+            text-align: left;
+        }
+    }
+
 }
