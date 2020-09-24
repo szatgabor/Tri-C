@@ -41,36 +41,49 @@
     border: 2px solid $third-color;
 }
 
-@media screen and (max-width: 425px) {
-    .reg-container {
-        display: flex;
-        flex-direction: column;
-        margin-right: 5%;
+@media only screen and (max-width: 425px) {
+    body {
+        .bcg {
+            height: 30rem;
+        }
 
-        div {
-            padding-bottom: 2rem;
-            font-size: small;
 
-            input {
-                width: 10rem;
+        .reg-container {
+            display: flex;
+            flex-direction: column;
+            margin-right: 5%;
 
-                height: 2rem;
-                border: none;
+            div {
+                padding-bottom: 2rem;
+                font-size: small;
 
+                input {
+                    width: 10rem;
+
+                    height: 2rem;
+                    border: none;
+
+                }
             }
         }
-    }
 
-    .reg-btn {
-        background-color: $third-color;
-        color: white;
-        padding: 0.5rem;
-        cursor: pointer;
-        width: 7rem;
+        .reg-btn {
+            background-color: $third-color;
+            color: white;
+            padding: 0.5rem;
+            cursor: pointer;
+            width: 7rem;
+        }
     }
 }
 
-@media (min-width:426px) and (max-width: 768px) {
+@media only screen and (min-width:426px) and (max-width: 768px) {
+    body {
+        .bcg {
+            height: 35rem;
+        }
+    }
+
     .reg-container {
         margin-right: 20%;
 
