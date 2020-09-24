@@ -91,3 +91,77 @@ body {
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+
+        .bcg7 {
+            height: 50vh;
+
+            .banner {
+                padding: 5px 1%;
+                bottom: 0%;
+
+                h1,
+                h3 {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        .container {
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+
+            .side-bar {
+                align-items: center;
+                height: 20px;
+                width: auto;
+
+                a {
+                    visibility: hidden;
+                }
+
+                h3 {
+                    font-size: 0.9rem;
+                }
+            }
+
+            .side-bar:hover {
+                height: auto;
+
+                a {
+                    visibility: visible;
+                }
+            }
+
+            .whole-content {
+                margin: 3% 0;
+                display: flex;
+                align-items: center;
+                width: 100%;
+                padding: 0;
+
+                .content {
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 0.8rem;
+                    padding: 0;
+
+                    .content-left {
+                        height: 5rem;
+                    }
+
+                    .content-right {
+                        text-align: justify;
+                        width: 90%;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+
+    }
+}

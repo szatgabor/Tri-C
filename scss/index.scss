@@ -1,148 +1,210 @@
 @import "var";
 
 header {
-    .upper {
-        bottom: 18rem;
-    }
+  .upper {
+    bottom: 8rem;
+  }
 }
 
 .company-info {
-    margin: 2rem;
-    font-size: 1.5rem;
-    padding: 0rem 17rem;
-    text-align: center;
+  margin: 1% 3%;
+  font-size: 1.5rem;
+  padding: 0rem 10%;
+
+  p {
+    text-align: justify;
+    width: 100%;
+  }
 }
 
 .our-courses {
-    background-color: $secondary-color;
-    color: #ffffff;
+  background-color: $secondary-color;
+  color: #ffffff;
+  width: 100%;
+  padding: 1rem 2rem;
+
+  h3 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+  a {
     width: 100%;
-    padding: 1rem 2rem;
+    text-align: center;
+    padding: 1rem;
 
-    h3 {
-        text-align: center;
-        margin: 1rem;
-        font-size: 1.5rem;
-    }
+    figure {
+      overflow: hidden;
+      width: 100%;
 
-
-    a {
+      img {
         width: 100%;
-        text-align: center;
-        padding: 1rem;
+      }
 
-        figure {
-            overflow: hidden;
-            width: 100%;
+      figcaption {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+      }
 
-            img {
-                width: 100%;
-            }
+      .cropped1 {
+        width: 100%;
+        transform: scale(1.3);
+        transform: scaleX(0.8);
+      }
 
-            figcaption {
-                font-size: 1rem;
-                font-weight: bold;
-                margin-top: .5rem;
-            }
+      .cropped2 {
+        width: 100%;
+        transform: scaleX(0.8);
+      }
 
-            .cropped1 {
-                width: 100%;
-                transform: scale(1.3);
-                transform: scaleX(0.8);
-            }
+      .cropped3 {
+        width: 80%;
+      }
 
-            .cropped2 {
-                width: 100%;
-                transform: scaleX(0.8);
-            }
-
-            .cropped3 {
-                width: 80%;
-            }
-
-            .cropped4 {
-                width: 72%;
-            }
-        }
+      .cropped4 {
+        width: 72%;
+      }
     }
+  }
 }
 
 .our-location {
-    background-color: $third-color;
-    color: #fff;
-    text-align: center;
-    padding: .2rem;
-    border-top: 1px solid #fff;
+  background-color: $third-color;
+  color: #fff;
+  text-align: center;
+  padding: 0.2rem;
+  border-top: 1px solid #fff;
 
-    h3 {
-        margin: 1rem;
-        font-size: 1.5rem;
-    }
+  h3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
 
-    p {
-        font-size: 1.5rem;
-        margin: 2rem;
-        padding: 0rem 16rem;
-    }
+  p {
+    font-size: 1.3rem;
+    padding: 5%;
+    width: 100%;
+  }
 }
 
 .map {
-    overflow: hidden;
+  overflow: hidden;
 
-    img {
-        width: 100%;
-        margin: -13% 0 0 0;
-    }
-
+  img {
+    width: 100%;
+    margin: -13% 0 0 0;
+  }
 }
 
 .latest-news {
-    background-color: $primary-color;
-    color: #ffffff;
-    width: 100%;
-    padding: 1rem 2rem;
+  background-color: $primary-color;
+  color: #ffffff;
+  width: 100%;
+  padding: 1rem 2rem;
 
-    h3 {
-        text-align: center;
-        margin: 1rem;
-        font-size: 1.5rem;
+  h3 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .latest-news-sub {
+    display: flex;
+
+    a {
+      text-align: center;
+      padding: 1rem;
+
+      p {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      .cropped5 {
+        height: 30vh;
+        background: url(../img/antibiotics.jpg) no-repeat center center/ cover;
+        margin-bottom: 1rem;
+      }
+
+      .cropped6 {
+        height: 30vh;
+        background: url(../img/shutterstock_655308307.jpg) no-repeat center
+          center/ cover;
+        margin-bottom: 1rem;
+      }
+
+      .cropped7 {
+        height: 30vh;
+        background: url(../img/headandneckcancer.jpg) no-repeat center center/
+          cover;
+        margin-bottom: 1rem;
+      }
+
+      .cropped8 {
+        height: 30vh;
+        background: url(../img/GettyImages-599776478.jpg) no-repeat center
+          center/ cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    .bcg {
+      height: 61vh;
+
+      .upper {
+        padding: 3% 2%;
+        bottom: 2%;
+
+        h1,
+        h3 {
+          width: 100%;
+          font-size: 0.9rem;
+          padding: 1% 0;
+        }
+      }
     }
 
-    .latest-news-sub {
+    .company-info {
+      margin: 1% 0;
+      padding: 3%;
+
+      p {
+        font-size: 0.9rem;
+        text-align: left;
+      }
+    }
+
+    .our-courses {
+      width: 100vw;
+      padding: 5% 3%;
+      font-size: 1rem;
+
+      .flex {
         display: flex;
+        flex-direction: column;
 
         a {
-            text-align: center;
-            padding: 1rem;
-
-            p {
-                font-size: 1rem;
-                font-weight: bold;
-            }
-
-            .cropped5 {
-                height: 30vh;
-                background: url(../img/antibiotics.jpg) no-repeat center center/ cover;
-                margin-bottom: 1rem;
-            }
-
-            .cropped6 {
-                height: 30vh;
-                background: url(../img/shutterstock_655308307.jpg) no-repeat center center/ cover;
-                margin-bottom: 1rem;
-            }
-
-            .cropped7 {
-                height: 30vh;
-                background: url(../img/headandneckcancer.jpg) no-repeat center center/ cover;
-                margin-bottom: 1rem;
-            }
-
-            .cropped8 {
-                height: 30vh;
-                background: url(../img/GettyImages-599776478.jpg) no-repeat center center/ cover;
-
-            }
+          padding: 0;
         }
+
+        figcaption {
+          padding-bottom: 2%;
+        }
+      }
     }
+
+    .latest-news {
+      padding: 3% 1%;
+
+      .latest-news-sub {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
 }

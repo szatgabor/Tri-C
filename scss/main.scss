@@ -34,7 +34,7 @@ header {
 
   &.bcg {
     background: url("../img/tric_homepage_image.jpg") no-repeat top left/ 140%;
-    height: 64rem;
+    height: 45rem;
   }
 
   &.bcg2 {
@@ -325,7 +325,7 @@ footer {
       margin-bottom: 5px;
       position: relative;
 
-      background: #3d3d3d;
+      background: $secondary-color;
       border-radius: 3px;
 
       z-index: 1;

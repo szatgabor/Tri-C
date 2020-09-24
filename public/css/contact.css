@@ -1,2 +1,91 @@
-.upper{bottom:5rem}.location-text{color:#595958;text-align:center;line-height:1.5;padding:2rem;width:100%}.map{height:100%;width:100%}.contactform{margin-right:20rem;padding:2rem 3rem;display:flex;flex-direction:column}.contactform div{padding-bottom:2rem;display:flex;justify-content:flex-end;align-items:flex-start}.contactform div input{width:35rem;background-color:#13abba;height:3rem;border:none;margin-left:1rem}#subject{width:35rem;background-color:#13abba;height:5rem;border:none;margin-left:1rem}.sub-btn{background-color:#1652a1;color:white;padding:0.7rem 2rem;border:none;cursor:pointer;width:10rem}.sub-btn:hover{background-color:white;color:#1652a1;border:2px solid #1652a1}.name .email .phone .subject{background-color:#458bca;color:white}.faq-main{box-sizing:border-box;padding:4em 4em;align-items:center;color:white;font-size:0.8em;column-count:2;background:linear-gradient(rgba(22,82,161,0.8), rgba(22,82,161,0.8)),url(../img/shutterstock_232951672.jpg) no-repeat top left/cover}.question{font-weight:bolder}input[type=text]{background-color:rgba(69,139,202,0.8);color:white;width:100%;box-sizing:border-box;padding:0.8em 0.8em;margin:.6 0}
+.upper {
+  bottom: 5rem
+}
+
+.location-text {
+  color: #595958;
+  text-align: center;
+  line-height: 1.5;
+  padding: 2rem;
+  width: 100%
+}
+
+.map {
+  height: 100%;
+  width: 100%
+}
+
+.contactform {
+  margin-right: 20rem;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column
+}
+
+.contactform div {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start
+}
+
+.contactform div input {
+  width: 35rem;
+  background-color: #13abba;
+  height: 3rem;
+  border: none;
+  margin-left: 1rem
+}
+
+#subject {
+  width: 35rem;
+  background-color: #13abba;
+  height: 5rem;
+  border: none;
+  margin-left: 1rem
+}
+
+.sub-btn {
+  background-color: #1652a1;
+  color: white;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  width: 10rem
+}
+
+.sub-btn:hover {
+  background-color: white;
+  color: #1652a1;
+  border: 2px solid #1652a1
+}
+
+.name .email .phone .subject {
+  background-color: #458bca;
+  color: white
+}
+
+.faq-main {
+  box-sizing: border-box;
+  padding: 4em 4em;
+  align-items: center;
+  color: white;
+  font-size: 0.8em;
+  column-count: 2;
+  background: linear-gradient(rgba(22, 82, 161, 0.8), rgba(22, 82, 161, 0.8)), url(../img/shutterstock_232951672.jpg) no-repeat top left/cover
+}
+
+.question {
+  font-weight: bolder
+}
+
+input[type=text] {
+  background-color: rgba(69, 139, 202, 0.8);
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.8em 0.8em;
+  margin: .6 0
+}
+
 /*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,50 @@
+body .bcg {
+  height: 61vh;
+}
+
+body .bcg .upper {
+  padding: 3% 0;
+  bottom: 2%;
+}
+
+body .bcg .upper h1,
+body .bcg .upper h3 {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 1% 0;
+}
+
+body .company-info {
+  margin: 1% 0;
+  padding: 3%;
+}
+
+body .company-info p {
+  font-size: 1rem;
+  text-align: left;
+}
+
+body .our-courses {
+  width: 100vw;
+  padding: 5% 3%;
+  font-size: 1rem;
+}
+
+body .our-courses .flex {
+  display: flex;
+  flex-direction: column;
+}
+
+body .our-courses .flex a {
+  padding: 0;
+}
+
+body .our-courses .flex figcaption {
+  padding-bottom: 2%;
+}
+
+body .latest-news {
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=index-mobile.css.map */
