@@ -82,59 +82,77 @@
     column-count: 2;
     background: linear-gradient(rgba(22, 82, 161, 0.8), rgba(22, 82, 161, 0.8)), url(../img/shutterstock_232951672.jpg) no-repeat top left/cover;
 
-}
+    @media only screen and (max-width: 425px) {
+        .map {
+            transform: scale(0.8);
+        }
 
-.question {
-    font-weight: bolder;
+        .contactform {
+            overflow-x: auto;
+            width: 50%;
+            float: none;
+            justify-content: center;
+            margin-right: 20%;
+        }
 
-}
+        .contactform>div {
+            margin-right: 1em;
+        }
 
-input[type=text] {
-    background-color: $primary-color-opacity;
-    color: white;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0.8em 0.8em;
-    margin: .6 0;
-
-}
-
-@media only screen and (max-width: 425px) {
-    .map {
-        transform: scale(0.8);
     }
 
-    .contactform {
-        overflow-x: auto;
-        width: 50%;
-        float: none;
-        justify-content: center;
-        margin-right: 20%;
-    }
-}
+    .question {
+        font-weight: bolder;
 
-@media only screen and (min-width:426px) and (max-width: 768px) {
-    .map {
-        transform: scale(0.8);
     }
 
-    .contactform {
-        margin-right: 20%;
+    input[type=text] {
+        background-color: $primary-color-opacity;
+        color: white;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.8em 0.8em;
+        margin: .6 0;
 
-        div {
-            padding-bottom: 2rem;
+    }
 
-            input {
-                width: 15rem;
-                height: 2rem;
-            }
+    @media only screen and (max-width: 425px) {
+        .map {
+            transform: scale(0.8);
+        }
+
+        .contactform {
+            overflow-x: auto;
+            width: 50%;
+            float: none;
+            justify-content: center;
+            margin-right: 20%;
         }
     }
 
-}
+    @media only screen and (min-width:426px) and (max-width: 768px) {
+        .map {
+            transform: scale(0.8);
+        }
 
-@media only screen and (min-width:769px) and (max-width: 1024px) {
-    .map {
-        transform: scale(0.8);
+        .contactform {
+            margin-right: 20%;
+
+            div {
+                padding-bottom: 2rem;
+
+                input {
+                    width: 15rem;
+                    height: 2rem;
+                }
+            }
+        }
+
+    }
+
+    @media only screen and (min-width:769px) and (max-width: 1024px) {
+        .map {
+            transform: scale(0.8);
+        }
     }
 }
