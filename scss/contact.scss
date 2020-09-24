@@ -96,3 +96,41 @@
             margin: .6 0;
 
           }
+
+          @media only screen and (max-width: 425px) {
+            .map {
+                transform: scale(0.8);
+            }
+            .contactform {
+                overflow-x: auto;
+                width: 50%; 
+                float: none;
+                justify-content: center;
+                margin-right: 20%;
+            }
+          }
+
+          @media only screen and (min-width:426px) and (max-width: 768px) {
+            .map {
+                transform: scale(0.8);
+            }
+            .contactform {
+                margin-right: 20%;
+        
+                div {
+                    padding-bottom: 2rem;
+        
+                    input {
+                        width: 15rem;
+                        height: 2rem;
+                    }
+                }
+            }
+        
+          }
+
+          @media only screen and (min-width:769px) and (max-width: 1024px) {
+            .map {
+                transform: scale(0.8);
+            }
+          }
