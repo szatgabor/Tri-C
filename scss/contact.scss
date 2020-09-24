@@ -1,9 +1,7 @@
 @import "var";
 
 
-.upper {
-    bottom: 5rem;
-}
+
 
 .location-text {
     color: $footer-color;
@@ -36,7 +34,7 @@
 
         input {
             width: 35rem;
-            background-color: $secondary-color;
+            background-color: $primary-color-opacity;
             height: 3rem;
             border: none;
             margin-left: 1rem;
@@ -48,7 +46,7 @@
 
 #subject {
     width: 35rem;
-    background-color: $secondary-color;
+    background-color: $primary-color-opacity;
     height: 5rem;
     border: none;
     margin-left: 1rem;
@@ -99,4 +97,44 @@ input[type=text] {
     padding: 0.8em 0.8em;
     margin: .6 0;
 
+}
+
+@media only screen and (max-width: 425px) {
+    .map {
+        transform: scale(0.8);
+    }
+
+    .contactform {
+        overflow-x: auto;
+        width: 50%;
+        float: none;
+        justify-content: center;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width: 768px) {
+    .map {
+        transform: scale(0.8);
+    }
+
+    .contactform {
+        margin-right: 20%;
+
+        div {
+            padding-bottom: 2rem;
+
+            input {
+                width: 15rem;
+                height: 2rem;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+    .map {
+        transform: scale(0.8);
+    }
 }
