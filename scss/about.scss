@@ -45,6 +45,13 @@ div.banner {
     display: flex;
     flex-direction: column;
 
+    .connect-container {
+        p {
+            width: 20%;
+            margin-left: 60%;
+        }
+    }
+
     h2 {
         text-align: center;
         padding-top: 1rem;
@@ -55,22 +62,17 @@ div.banner {
         color: #fff;
         text-align: center;
         font-weight: bold;
-        padding: 0 30rem;
     }
 
-    .container {
+    .care-container {
         background: url(../img/logo.png) no-repeat center center/80%;
-        height: 50rem;
+        height: 40rem;
+        justify-content: space-around;
 
-        .text-container {
-            height: 35rem;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
+        p {
+            align-self: flex-end;
+            width: 20%;
         }
-
-        p {}
     }
 
 
