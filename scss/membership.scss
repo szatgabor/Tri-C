@@ -1,0 +1,66 @@
+@import 'var';
+
+body {
+
+    h1 {
+        font-size: 1.2rem;
+        line-height: 200%;
+        font-weight: lighter;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        line-height: 120%;
+        font-weight: lighter;
+    }
+
+
+    .bcg-membership {
+        height: 20rem;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+
+        .banner {
+            height: auto;
+            bottom: 5%;
+            padding: 1% 0;
+        }
+    }
+
+
+    .content {
+        padding-left: 20%;
+        padding-right: 30%;
+        padding-top: 2%;
+        font-size: 1rem;
+
+        p {
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+
+        li {
+            display: block;
+
+            span {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        .banner {
+            padding: 0 5px;
+        }
+
+        .content {
+            width: 100vw;
+            font-size: 15px;
+            padding: 6%;
+            text-align: left;
+        }
+    }
+
+}

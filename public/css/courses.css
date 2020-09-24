@@ -1,0 +1,432 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+li {
+  display: inline-block;
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  color: #fff
+}
+
+.logo {
+  width: 20%
+}
+
+.flex {
+  display: flex
+}
+
+header {
+  position: relative
+}
+
+header.bcg1 {
+  background: url("../img/tric homepage image.jpg") no-repeat top left;
+  background-size: 140%;
+  height: 65rem
+}
+
+header.bcg3 {
+  background: url(../img/shutterstock_141854491.jpg) center center/cover;
+  height: 45rem
+}
+
+header.bcg9 {
+  background: url(../img/shutterstock_513458401.jpg) no-repeat center center/95rem;
+  height: 45rem
+}
+
+header.bcg10 {
+  background: url(../img/pelvic-laparoscopy_thumb.jpg) no-repeat top center/cover;
+  background: url(../img/pelvic-laparoscopy_thumb.jpg) no-repeat center center/cover;
+  height: 45rem
+}
+
+header.bcg12 {
+  background: url(../img/_8lr5250.jpg) no-repeat center center/cover;
+  height: 45rem
+}
+
+header .banner {
+  background-color: rgba(19, 172, 186, 0.8);
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 2rem;
+  width: 100%;
+  position: absolute;
+  bottom: 2rem
+}
+
+header .banner h1 {
+  margin: auto;
+  width: 80%;
+  border-bottom: 1px solid #fff
+}
+
+header nav {
+  position: relative;
+  padding-top: 2rem
+}
+
+header nav #menuToggle {
+  display: none
+}
+
+header nav .login {
+  position: absolute;
+  top: 0rem;
+  right: 2rem
+}
+
+header nav .login li {
+  margin: 0 1px
+}
+
+header nav .login li a {
+  display: inline-block;
+  color: #fff;
+  padding: 0.3rem 2rem
+}
+
+header nav .login li:first-child {
+  background-color: #13abba
+}
+
+header nav .login li:last-child {
+  background-color: #1652a1
+}
+
+header nav .logo {
+  position: absolute;
+  top: 2rem;
+  left: 2rem
+}
+
+header nav .main-nav {
+  position: absolute;
+  top: 2rem;
+  right: 2rem
+}
+
+header nav .main-nav li {
+  padding: 0.5rem
+}
+
+header nav .main-nav a {
+  color: #595958
+}
+
+header nav .main-nav a:hover {
+  border-bottom: 1px solid #595958
+}
+
+main {
+  width: 75%;
+  margin: 2rem auto;
+  font-size: small
+}
+
+main .active-link {
+  font-weight: bold
+}
+
+main a {
+  color: #13abba;
+  font-weight: bold
+}
+
+main section:first-child h5 {
+  font-weight: lighter;
+  margin-bottom: 1rem
+}
+
+main section:first-child hr {
+  margin: 1rem 0
+}
+
+main section:first-child .courses-btns {
+  justify-content: space-between;
+  margin-bottom: 1rem
+}
+
+main section:first-child .courses-btns button {
+  min-width: 49%;
+  height: 3rem;
+  cursor: pointer
+}
+
+main .btn-turq {
+  background-color: #13abba;
+  color: #fff;
+  border: 1px solid #13abba
+}
+
+main .btn-turq:focus {
+  border: 1px solid #13abba
+}
+
+main section.calendar {
+  background-color: #dddddd;
+  padding: 0.7rem
+}
+
+main section.calendar ul {
+  justify-content: space-between
+}
+
+main section.calendar table {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: #fff;
+  border: 5px solid #ccc;
+  border-collapse: collapse
+}
+
+main section.calendar table th {
+  background-color: #777777;
+  width: 5rem;
+  padding: 0.2rem
+}
+
+main section.calendar table td {
+  width: 15rem;
+  height: 5rem;
+  padding: 0.2rem;
+  border: 1px solid #ddd
+}
+
+main section.calendar table tr+tr {
+  text-align: left
+}
+
+main section.calendar table tr+tr th {
+  background-color: #ececec
+}
+
+main section.calendar table .last-month th {
+  opacity: 0.2
+}
+
+main section.calendar table .last-month th:last-child {
+  opacity: 1
+}
+
+main section.calendar table .last-month-cont td {
+  height: 12rem
+}
+
+main section.calendar table .next-month th {
+  opacity: 0.2
+}
+
+main section.calendar table .next-month th:first-child,
+main section.calendar table .next-month th:nth-child(2) {
+  opacity: 1
+}
+
+main section.calendar table .next-month td {
+  opacity: 0.2
+}
+
+main section.list .list-calendar {
+  background-color: #dddddd;
+  padding: 0.5rem;
+  width: 20%;
+  margin: 2rem auto;
+  justify-content: center
+}
+
+main section.list .list-items {
+  flex-direction: column
+}
+
+main section.list .list-items article {
+  width: 100%;
+  border-bottom: 1px solid #595958;
+  padding: 1rem 0;
+  justify-content: space-between
+}
+
+main section.list .list-items article img {
+  width: 45%;
+  height: 12rem
+}
+
+main section.list .list-items article .cropped-img-1 {
+  width: 45%;
+  background: url("../img/overstitch-bariatric.jpg") no-repeat center center/cover
+}
+
+main section.list .list-items article .cropped-img-2 {
+  width: 45%;
+  background: url("../img/4×1-e14459430461271.png") no-repeat center center/100%
+}
+
+main section.list .list-items article .list-text {
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+main section.list .list-items article .list-text h3 {
+  color: #458bca
+}
+
+main section.list .list-items article .list-text h3,
+main section.list .list-items article .list-text h5,
+main section.list .list-items article .list-text span {
+  margin: 0.5rem 0
+}
+
+main section.list .list-items article .list-text .read-more {
+  text-align: right
+}
+
+main section.list .list-items article .list-text .read-more a {
+  color: #000;
+  font-weight: lighter
+}
+
+main section.list .list-items article .list-text .read-more a:hover {
+  color: #13abba;
+  font-weight: bold
+}
+
+main section.list .list-items article .list-text .read-more i {
+  color: #13abba;
+  border: 1px solid #13abba;
+  padding: 0.1rem 0.3rem
+}
+
+main .small-implant {
+  justify-content: space-between;
+  text-align: justify
+}
+
+main .small-implant ul {
+  margin-bottom: 1rem
+}
+
+main .small-implant ul li {
+  display: block
+}
+
+main .small-implant>div {
+  width: 45%
+}
+
+main .small-implant>div h4 {
+  color: #1652a1
+}
+
+main .small-implant>div p {
+  margin-bottom: 1rem
+}
+
+main .small-implant>div img {
+  width: 7rem
+}
+
+main .small-implant .doc-pic {
+  width: 45rem;
+  margin-right: 4rem
+}
+
+main .small-implant .doc-desc h4 {
+  color: #000
+}
+
+main .small-implant .doc-1 {
+  margin-top: 1rem
+}
+
+main .register-course {
+  text-align: right
+}
+
+main .register-course span {
+  padding-top: .5rem;
+  text-align: center;
+  height: 2.2rem;
+  width: 6rem;
+  display: inline-block
+}
+
+@media screen and (max-width: 1279px) {
+  main section:first-child .courses-btns {
+    flex-direction: column
+  }
+
+  main section:first-child .courses-btns button {
+    margin-bottom: 1rem
+  }
+
+  main .small-implant {
+    flex-direction: column;
+    align-items: center
+  }
+
+  main .small-implant .left-col,
+  main .small-implant .right-col {
+    width: 70%
+  }
+
+  main section.list .list-calendar {
+    width: 50%
+  }
+
+  main section.list .list-items {
+    width: 100%
+  }
+
+  main section.list .list-items article {
+    flex-direction: column
+  }
+
+  main section.list .list-items article .list-text {
+    width: 100%
+  }
+
+  main section.list .list-items article img {
+    width: 100%
+  }
+
+  main section.list .list-items article .cropped-img-1,
+  main section.list .list-items article .cropped-img-2 {
+    height: 10rem;
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 1279px) and (max-width: 700px) {
+
+  main .small-implant .doc-1,
+  main .small-implant .doc-2,
+  main .small-implant .doc-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  main .small-implant .doc-pic {
+    width: auto;
+    margin: 1rem
+  }
+
+  main .table-overflow {
+    overflow: auto
+  }
+}
+
+/*# sourceMappingURL=courses.css.map */
