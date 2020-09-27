@@ -37,24 +37,102 @@ header {
 
 		.katemorse {
 			height: 55vh;
-			background: url(../img/AAEAAQAAAAAAAAJAAAAAJDhhMzYxNzJkLWVhZDAtNGM2MC05OWZkLTY4MmE2NmIzN2U1Zg.jpg)
-				no-repeat left/70%;
+			background: url(../img/AAEAAQAAAAAAAAJAAAAAJDhhMzYxNzJkLWVhZDAtNGM2MC05OWZkLTY4MmE2NmIzN2U1Zg.jpg) no-repeat left/70%;
 		}
 	}
 }
 
 @media only screen and (max-width: 1023px) {
+	header {
+		&.bcg {
+			height: 30rem;
+		}
+	}
+
 	.doctors-container-row {
 		flex-direction: column;
 		align-items: center;
 
 		.doctor {
-			width: 80%;
+			width: 60%;
 
-			& > .demian,
-			& > .katemorse {
-				height: 25rem;
+			padding: 1rem;
 
+			&>.demian,
+			&>.katemorse {
+				height: 20rem;
+
+				background-position: center;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		&.bcg {
+			height: 30rem;
+		}
+	}
+
+	.bcg {
+		.banner {
+			padding: 3% 2%;
+			bottom: 2%;
+
+			h1,
+			h3 {
+				width: 100%;
+				font-size: 1.5rem;
+				padding: 1% 0;
+			}
+		}
+	}
+
+	.doctors-container-row {
+		.doctor {
+			width: 60%;
+
+
+			&>.demian,
+			&>.katemorse {
+				height: 20rem;
+				margin-bottom: 1rem;
+				background-position: center;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	header {
+		&.bcg {
+			height: 30rem;
+		}
+	}
+
+	.bcg {
+		.banner {
+			padding: 3% 2%;
+			bottom: 15%;
+
+			h1,
+			h3 {
+				width: 100%;
+				font-size: 0.9rem;
+				padding: 1% 0;
+			}
+		}
+	}
+
+	.doctors-container-row {
+		.doctor {
+			width: 100%;
+
+
+			&>.demian,
+			&>.katemorse {
+				height: 15rem;
 				background-position: center;
 			}
 		}

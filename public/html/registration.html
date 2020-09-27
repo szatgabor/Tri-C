@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Registration</title>
-		<link rel="stylesheet" href="../css/main.css" />
-		<link rel="stylesheet" href="../css/registration.css" />
-		<script src="https://kit.fontawesome.com/cfe38e0c1d.js" crossorigin="anonymous"></script>
-	</head>
 
-	<body>
-		<header class="bcg">
-			<nav class="flex">
-				<ul class="login flex">
-					<li><a href="registration.html">REGISTER</a></li>
-					<li><a href="#">LOGIN</a></li>
-				</ul>
-				<img src="../img/TRIC_LOGO_ARTWORK_3JAN2018.png" alt="logo" class="logo" />
-				<ul class="main-nav flex">
-					<li>
-						<a href="index.html"><i class="fas fa-home"></i></a>
-					</li>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Registration</title>
+	<link rel="stylesheet" href="../css/main.css" />
+	<link rel="stylesheet" href="../css/registration.css" />
+	<script src="https://kit.fontawesome.com/cfe38e0c1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header class="bcg">
+		<nav class="flex">
+			<ul class="login flex">
+				<li><a href="registration.html">REGISTER</a></li>
+				<li><a href="#">LOGIN</a></li>
+			</ul>
+			<img src="../img/TRIC_LOGO_ARTWORK_3JAN2018.png" alt="logo" class="logo" />
+			<ul class="main-nav flex">
+				<li>
+					<a href="../../index.html"><i class="fas fa-home"></i></a>
+				</li>
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="courses.html">OUR COURSES</a></li>
+				<li><a href="doctors.html">OUR DOCTORS</a></li>
+				<li><a href="elearning.html">E-LEARNING</a></li>
+				<li><a href="membership.html">MEMBERSHIP</a></li>
+				<li><a href="media.html">MEDIA</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+			<div id="menuToggle">
+				<input type="checkbox" />
+
+				<span></span>
+				<span></span>
+				<span></span>
+
+				<ul id="menu">
+					<li><a href="../../index.html"><i class="fas fa-home"></i> HOME</a></li>
 					<li><a href="about.html">ABOUT US</a></li>
 					<li><a href="courses.html">OUR COURSES</a></li>
 					<li><a href="doctors.html">OUR DOCTORS</a></li>
@@ -29,94 +47,77 @@
 					<li><a href="media.html">MEDIA</a></li>
 					<li><a href="contact.html">CONTACT US</a></li>
 				</ul>
-				<div id="menuToggle">
-					<input type="checkbox" />
-
-					<span></span>
-					<span></span>
-					<span></span>
-
-					<ul id="menu">
-						<li><a href="about.html">ABOUT US</a></li>
-						<li><a href="courses.html">OUR COURSES</a></li>
-						<li><a href="doctors.html">OUR DOCTORS</a></li>
-						<li><a href="elearning.html">E-LEARNING</a></li>
-						<li><a href="membership.html">MEMBERSHIP</a></li>
-						<li><a href="media.html">MEDIA</a></li>
-						<li><a href="contact.html">CONTACT US</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class="banner">
-				<h1>REGISTRATION</h1>
-				<p>
-					Bringing the best global continuing professional development home for health
-					professionals
-				</p>
 			</div>
-		</header>
-		<div class="reg-container">
-			<div>
-				<label for="salutation">SALUTATION</label> <input type="text" id="salutation" />
-			</div>
-			<div>
-				<label for="first-name">FIRST NAME</label> <input type="text" id="first-name" />
-			</div>
-			<div><label for="last-name">LAST NAME</label> <input type="text" id="last-name" /></div>
-			<div>
-				<label for="location">LOCATION:</label>
-				<input type="text" id="location" />
-			</div>
-			<div><label for="email">EMAIL:</label> <input type="text" id="email" /></div>
-			<div>
-				<label for="number">TELEPHONE NUMBER:</label> <input type="text" id="number" />
-			</div>
-			<div><label for="mobile">MOBILE:</label> <input type="text" id="mobile" /></div>
-			<div><label for="position">POSITION:</label> <input type="text" id="position" /></div>
-			<div>
-				<label for="speciality">SPECIALITY:</label> <input type="text" id="speciality" />
-			</div>
-			<div>
-				<label for="state">PLEASE STATE IF OTHER:</label> <input type="text" id="state" />
-			</div>
-			<div>
-				<label for="course">COURSE NAME:</label>
-				<input type="text" id="course" />
-			</div>
-			<div><button type="submit" class="reg-btn">REGISTER</button></div>
+		</nav>
+		<div class="banner">
+			<h1>REGISTRATION</h1>
+			<h3>
+				Bringing the best global continuing professional development home for health
+				professionals
+			</h3>
 		</div>
+	</header>
+	<div class="reg-container">
+		<div>
+			<label for="salutation">SALUTATION</label> <input type="text" id="salutation" />
+		</div>
+		<div>
+			<label for="first-name">FIRST NAME</label> <input type="text" id="first-name" />
+		</div>
+		<div><label for="last-name">LAST NAME</label> <input type="text" id="last-name" /></div>
+		<div>
+			<label for="location">LOCATION:</label>
+			<input type="text" id="location" />
+		</div>
+		<div><label for="email">EMAIL:</label> <input type="text" id="email" /></div>
+		<div>
+			<label for="number">TELEPHONE NUMBER:</label> <input type="text" id="number" />
+		</div>
+		<div><label for="mobile">MOBILE:</label> <input type="text" id="mobile" /></div>
+		<div><label for="position">POSITION:</label> <input type="text" id="position" /></div>
+		<div>
+			<label for="speciality">SPECIALITY:</label> <input type="text" id="speciality" />
+		</div>
+		<div>
+			<label for="state">PLEASE STATE IF OTHER:</label> <input type="text" id="state" />
+		</div>
+		<div>
+			<label for="course">COURSE NAME:</label>
+			<input type="text" id="course" />
+		</div>
+		<div><button type="submit" class="reg-btn">REGISTER</button></div>
+	</div>
 
-		<footer>
-			<div>
-				<span class="footer-1"
-					>If you would like further information about membership or our courses, please
-					get in touch today.</span
-				>
-				Call us on <span class="footer-2">+971 4 3885 501</span> or email us at
-				<span class="footer-2">info@tri-c-academy.com</span>
-			</div>
-			<div class="info flex">
-				<ul class="flex">
-					<li>
-						<a href="#" class="socials"><i class="fab fa-facebook-f"></i></a>
-					</li>
-					<li>
-						<a href="#" class="socials"><i class="fab fa-linkedin-in"></i></a>
-					</li>
-					<li>
-						<a href="#" class="socials"><i class="fab fa-twitter"></i></a>
-					</li>
-					<li>&copy; TRI-C 2018</li>
-				</ul>
-				<ul class="flex">
-					<li><a href="#">TERMS AND CONDITIONS</a></li>
-					<li><a href="#">PRIVACY STATEMENT</a></li>
-					<li><a href="#">SITE MAP</a></li>
-					<li>
-						<a href="#" class="lower">PRINT THIS PAGE <i class="fas fa-print"></i></a>
-					</li>
-				</ul>
-			</div>
-		</footer>
-	</body>
+	<footer>
+		<div>
+			<span class="footer-1">If you would like further information about membership or our courses, please
+				get in touch today.</span>
+			Call us on <span class="footer-2">+971 4 3885 501</span> or email us at
+			<span class="footer-2">info@tri-c-academy.com</span>
+		</div>
+		<div class="info flex">
+			<ul class="flex">
+				<li>
+					<a href="#" class="socials"><i class="fab fa-facebook-f"></i></a>
+				</li>
+				<li>
+					<a href="#" class="socials"><i class="fab fa-linkedin-in"></i></a>
+				</li>
+				<li>
+					<a href="#" class="socials"><i class="fab fa-twitter"></i></a>
+				</li>
+				<li>&copy; TRI-C 2018</li>
+			</ul>
+			<ul class="flex">
+				<li><a href="#">TERMS AND CONDITIONS</a></li>
+				<li><a href="#">PRIVACY STATEMENT</a></li>
+				<li><a href="#">SITE MAP</a></li>
+				<li>
+					<a href="#" class="lower">PRINT THIS PAGE <i class="fas fa-print"></i></a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+
 </html>

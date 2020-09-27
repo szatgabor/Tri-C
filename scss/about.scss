@@ -83,30 +83,143 @@ div.banner {
 .pre-footer-bg {
     margin-top: 2rem;
     background: url(../img/shutterstock_221314546.jpg) no-repeat top left/cover;
-    height: 50rem;
+    height: 100vh;
 }
 
-@media only screen and (max-width: 1280px) {
-    .our-values {
-        justify-content: space-around;
+@media screen and (max-width: 1023px) {
+    body {
+        .bcg2 {
+            height: 30rem;
 
-        .connect-container {
-            p {
-                width: 40%;
-                margin: auto;
+            .upper {
+                padding: 3% 2%;
+                bottom: 2%;
+
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 1.5rem;
+                    padding: 1% 0;
+                }
             }
         }
 
-        .care-container {
-            flex-direction: column;
-            background: none;
+        .our-learning-hub,
+        .our-team {
+            padding: .4rem;
+
+            .learning-column {
+                padding: 1rem 2rem;
+            }
+        }
+
+        .pre-footer-bg {
             height: 30rem;
-            justify-content: space-around;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our-values {
+        height: 25rem;
+
+        .connect-container {
+            p {
+                margin-top: 1rem;
+                width: 40%;
+                margin-left: 30%;
+                color: #fff;
+            }
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        .care-container {
+            background: none;
+            height: 20rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: inherit;
+            ;
 
             p {
+                margin-top: 1rem;
                 align-self: center;
                 width: 40%;
             }
         }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        &.bcg2 {
+            height: 26rem;
+            background-size: 100%;
+
+            .upper {
+                bottom: 20%;
+
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 0.9rem;
+                    padding: 1% 0;
+                }
+            }
+        }
+    }
+
+    .our-learning-hub,
+    .our-team {
+        margin-top: 0;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .learning-column {
+            width: 100%;
+        }
+    }
+
+    .our-values {
+        height: 30rem;
+
+        .connect-container {
+            p {
+                margin-top: 1rem;
+                width: 60%;
+                margin-left: 21%;
+                color: #fff;
+            }
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        .care-container {
+            background: none;
+            height: 20rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: inherit;
+            ;
+
+            p {
+                margin-top: 1rem;
+                align-self: center;
+                width: 60%;
+            }
+        }
+    }
+
+    .pre-footer-bg {
+        margin-bottom: -22rem;
+        background-size: 100%;
     }
 }

@@ -10,14 +10,53 @@
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:768px) {
+    body {
+        .bcg5 {
+            height: 30rem;
+
+            .upper {
+                padding: 3% 2%;
+                bottom: 2%;
+
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 1.5rem;
+                    padding: 1% 0;
+                }
+            }
+        }
+
+        .text {
+            margin: 2rem 2rem;
+        }
+    }
+}
+
+@media (max-width:320px) {
+    header {
+        &.bcg5 {
+            height: 26rem;
+            background-size: cover;
+
+            .banner {
+
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 0.9rem;
+                    padding: 1% 0;
+                }
+            }
+        }
+    }
 
     .text {
         margin: 2rem;
 
         p {
             column-count: 1;
-            text-align: justify;
         }
 
     }

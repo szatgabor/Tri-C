@@ -39,7 +39,7 @@ header {
 	}
 
 	&.bcg3 {
-		background: url(../img/shutterstock_141854491.jpg) center center / cover;
+		background: url(../img/shutterstock_141854491.jpg) no-repeat center center / cover;
 		height: 45rem;
 	}
 
@@ -79,10 +79,6 @@ header {
 	}
 
 	nav {
-		#menuToggle {
-			display: none;
-		}
-
 		position: relative;
 		padding-top: 2rem;
 
@@ -181,6 +177,13 @@ main {
 		background-color: $secondary-color;
 		color: #fff;
 		border: 1px solid $secondary-color;
+		transition: 0.4s;
+
+		&:hover {
+			background-color: #fff;
+			color: $secondary-color;
+			border: 1px solid $secondary-color;
+		}
 
 		&:focus {
 			border: 1px solid $secondary-color;
@@ -445,7 +448,7 @@ main {
 		}
 	}
 
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 768px) {
 		main {
 			.small-implant {
 
@@ -467,5 +470,64 @@ main {
 				overflow: auto;
 			}
 		}
+
+		.bcg3,
+		.bcg9,
+		.bcg10 {
+			height: 61vh;
+
+			.banner {
+				padding: 3% 2%;
+				bottom: 2%;
+
+				h1,
+				h3 {
+					width: 100%;
+					font-size: 1.5rem;
+					padding: 1% 0;
+				}
+			}
+		}
 	}
+}
+
+@media screen and (max-width: 320px) {
+	header {
+
+		&.bcg3,
+		&.bcg9,
+		&.bcg10,
+		&.bcg12 {
+			height: 26rem;
+
+
+			.banner {
+				bottom: 0%;
+
+				h1,
+				h3 {
+					width: 100%;
+					font-size: 0.9rem;
+					padding: 1% 0;
+				}
+			}
+		}
+
+		&.bcg9 {
+			background-size: 120%;
+		}
+
+		&.bcg12 {
+			background-size: 120%;
+		}
+	}
+
+	.small-implant-main {
+		width: 100%;
+
+		.register-course {
+			text-align: center;
+		}
+	}
+
 }

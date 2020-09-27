@@ -1,22 +1,2 @@
-.text {
-  margin: 2rem 7rem
-}
-
-.text p {
-  column-count: 2;
-  column-gap: 2rem;
-  text-align: justify
-}
-
-@media (max-width: 425px) {
-  .text {
-    margin: 2rem
-  }
-
-  .text p {
-    column-count: 1;
-    text-align: justify
-  }
-}
-
+.text{margin:2rem 7rem}.text p{column-count:2;column-gap:2rem;text-align:justify}@media (max-width: 768px){body .bcg5{height:30rem}body .bcg5 .upper{padding:3% 2%;bottom:2%}body .bcg5 .upper h1,body .bcg5 .upper h3{width:100%;font-size:1.5rem;padding:1% 0}body .text{margin:2rem 2rem}}@media (max-width: 320px){header.bcg5{height:26rem;background-size:cover}header.bcg5 .banner h1,header.bcg5 .banner h3{width:100%;font-size:0.9rem;padding:1% 0}.text{margin:2rem}.text p{column-count:1}}
 /*# sourceMappingURL=elearning.css.map */

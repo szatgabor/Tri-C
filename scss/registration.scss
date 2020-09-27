@@ -32,13 +32,13 @@
 
 /* Style for the register button */
 .reg-btn {
-
+    border: 2px solid $third-color;
     background-color: $third-color;
     color: white;
     padding: 0.7rem 2rem;
-    border: none;
     cursor: pointer;
     width: 10rem;
+    transition: .4s;
 }
 
 .reg-btn:hover {
@@ -47,21 +47,85 @@
     border: 2px solid $third-color;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 320px) {
+    header {
+        &.bcg {
+            height: 26rem;
+
+            .banner {
+                height: 35%;
+                padding: 1rem;
+
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 0.9rem;
+                    padding: 1% 0;
+                }
+            }
+        }
+    }
+
+    .reg-container {
+
+        flex-direction: column;
+        margin-right: 5%;
+
+        div {
+            display: block;
+            text-align: center;
+
+            padding-bottom: 2rem;
+
+            label {
+                text-align: left;
+            }
+
+            input {
+                display: block;
+                width: 100%;
+
+                height: 2rem;
+                border: none;
+
+            }
+        }
+    }
+
+    .reg-btn {
+        background-color: $third-color;
+        color: white;
+        padding: 0.5rem;
+        cursor: pointer;
+        width: 7rem;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width: 768px) {
     body {
         .bcg {
             height: 30rem;
+
+            .banner {
+                padding: 3% 2%;
+                bottom: 2%;
+
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 1.5rem;
+                    padding: 1% 0;
+                }
+            }
         }
 
         .reg-container {
-
+            margin-right: 0;
             flex-direction: column;
-            margin-right: 5%;
+            text-align: center;
 
             div {
                 display: block;
-                text-align: center;
-
                 padding-bottom: 2rem;
 
                 label {
@@ -69,77 +133,37 @@
                 }
 
                 input {
-                    display: block;
+
                     width: 100%;
-
                     height: 2rem;
-                    border: none;
-
                 }
             }
         }
 
-        .reg-btn {
-            background-color: $third-color;
-            color: white;
-            padding: 0.5rem;
-            cursor: pointer;
-            width: 7rem;
-        }
-    }
-}
-
-@media only screen and (min-width:426px) and (max-width: 768px) {
-    body {
-        .bcg {
-            height: 35rem;
-        }
     }
 
-    .reg-container {
-        margin-right: 0;
-        flex-direction: column;
-        text-align: center;
+    @media (min-width:769px) and (max-width: 1024px) {
+        .reg-container {
 
-        div {
-            display: block;
-            padding-bottom: 2rem;
+            margin-right: 20%;
+            margin-left: 20%;
 
-            label {
-                text-align: left;
-            }
+            div {
 
-            input {
+                padding-bottom: 2rem;
+                text-align: center;
 
-                width: 100%;
-                height: 2rem;
-            }
-        }
-    }
+                label {
+                    text-align: left;
+                }
 
-}
+                input {
 
-@media (min-width:769px) and (max-width: 1024px) {
-    .reg-container {
-
-        margin-right: 20%;
-        margin-left: 20%;
-
-        div {
-
-            padding-bottom: 2rem;
-            text-align: center;
-
-            label {
-                text-align: left;
-            }
-
-            input {
-
-                width: 100%;
-                height: 2rem;
+                    width: 100%;
+                    height: 2rem;
+                }
             }
         }
-    }
 
+    }
 }

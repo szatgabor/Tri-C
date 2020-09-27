@@ -1,8 +1,5 @@
 @import "var";
 
-
-
-
 .location-text {
     color: $footer-color;
 
@@ -20,22 +17,31 @@
 
 
 .contactform {
-    margin-right: 20rem;
-    padding: 2rem 3rem;
+    padding: 0rem 3rem;
     display: flex;
     flex-direction: column;
 
+    h3 {
+        text-align: center;
+        margin: 2rem;
+    }
+
     div {
-        padding-bottom: 2rem;
+        padding-bottom: 0.5rem;
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+
+        label {
+            text-align: right;
+            width: 11rem;
+        }
 
 
         input {
-            width: 35rem;
+            width: 40rem;
             background-color: $primary-color-opacity;
-            height: 3rem;
+            height: 2.5rem;
             border: none;
             margin-left: 1rem;
 
@@ -44,8 +50,31 @@
 
 }
 
+.contactformend {
+    padding: 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    div {
+        padding-bottom: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        button {
+            margin-left: 42rem;
+        }
+
+        label {
+            text-align: right;
+            width: 11rem;
+        }
+    }
+}
+
 #subject {
-    width: 35rem;
+    width: 40rem;
     background-color: $primary-color-opacity;
     height: 5rem;
     border: none;
@@ -53,10 +82,10 @@
 }
 
 .sub-btn {
+    border: 2px solid $third-color;
     background-color: $third-color;
     color: white;
     padding: 0.7rem 2rem;
-    border: none;
     cursor: pointer;
     width: 10rem;
 }
@@ -65,6 +94,7 @@
     background-color: white;
     color: $third-color;
     border: 2px solid $third-color;
+    transition: .4s;
 }
 
 
@@ -99,59 +129,150 @@ input[type=text] {
 
 }
 
-@media only screen and (max-width: 425px) {
-    .map {
-        transform: scale(0.8);
-    }
+@media only screen and (max-width: 768px) {
+    body {
+        .bcg6 {
+            height: 30rem;
 
-    .contactform {
-        overflow-x: auto;
-        width: 50%;
-        float: none;
-        justify-content: center;
-        margin-right: 20%;
-    }
+            .banner {
+                padding: 3% 2%;
+                bottom: 0%;
+                height: 40%;
 
-    .contactform>div {
-        margin-right: 1em;
-    }
-
-}
-
-@media only screen and (min-width:426px) and (max-width: 768px) {
-    .map {
-        transform: scale(0.8);
-    }
-
-    .contactform {
-        margin-right: 20%;
-
-        div {
-            padding-bottom: 2rem;
-
-            input {
-                width: 15rem;
-                height: 2rem;
-            }
-
-            label {
-                width: 15vw;
-            }
-
-            #subject {
-                width: 15rem;
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 1.5rem;
+                    padding: 1% 0;
+                }
             }
         }
     }
 
-    .contactform>div {
-        margin-top: 1em;
-    }
-
-}
-
-@media only screen and (min-width:769px) and (max-width: 1024px) {
-    .map {
-        transform: scale(0.8);
+    .contactformend {
+        div {
+            button {
+                margin-left: 35rem;
+            }
+        }
     }
 }
+
+@media only screen and (max-width: 320px) {
+    header {
+        &.bcg6 {
+            height: 26rem;
+            background-size: cover;
+
+            .upper {
+                height: 30%;
+
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 0.9rem;
+                    padding: 1% 0;
+                }
+            }
+        }
+    }
+
+    .contactformend {
+        div {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                text-align: left;
+            }
+
+            button {
+                margin-left: 2.5rem;
+            }
+        }
+    }
+
+    .contactform {
+        div {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                text-align: left;
+                width: 15rem;
+            }
+
+            input {
+                width: 16rem;
+            }
+        }
+    }
+
+    #subject {
+        width: 16rem;
+        margin-left: -.4rem;
+    }
+
+    .faq-main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+// @media only screen and (max-width: 425px) {
+//     .map {
+//         transform: scale(0.8);
+//     }
+
+//     .contactform {
+//         overflow-x: auto;
+//         width: 50%;
+//         float: none;
+//         justify-content: center;
+//         margin-right: 20%;
+//     }
+
+//     .contactform>div {
+//         margin-right: 1em;
+//     }
+
+// }
+
+// @media only screen and (min-width:425px) and (max-width: 768px) {
+//     .map {
+//         transform: scale(1);
+//     }
+
+//     .contactform {
+//         margin-right: 20%;
+
+//         div {
+//             padding-bottom: 2rem;
+
+//             input {
+//                 width: 15rem;
+//                 height: 2rem;
+//             }
+
+//             label {
+//                 width: 15vw;
+//             }
+
+//             #subject {
+//                 width: 15rem;
+//             }
+//         }
+//     }
+
+//     .contactform>div {
+//         margin-top: 1em;
+//     }
+
+// }
+
+// @media only screen and (min-width:769px) and (max-width: 1024px) {
+//     .map {
+//         transform: scale(0.8);
+//     }
+// }
