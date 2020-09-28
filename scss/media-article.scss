@@ -8,6 +8,7 @@
 
 body {
 
+    // Header with banner
     .bcg-media-article {
         height: 50rem;
         background-size: cover;
@@ -25,9 +26,10 @@ body {
         }
     }
 
+    // Contains everything between header and footer
     .container {
-        // overflow: hidden;
 
+        // Article text
         .article-content {
             padding: 35px;
             width: 80%;
@@ -44,6 +46,7 @@ body {
             }
         }
 
+        // Article pictures
         .article-pictures {
             padding: 3%;
             width: 100vw;
@@ -87,6 +90,7 @@ body {
     }
 }
 
+// Media query for smartphones over 321px and tablets till 768px
 @media screen and (max-width: 768px) {
     .bcg-media-article {
         height: 30rem;
@@ -157,6 +161,7 @@ body {
     }
 }
 
+// Media query for very small smartphones, till 320px
 @media only screen and (max-width: 320px) {
     header {
         &.bcg-media-article {
