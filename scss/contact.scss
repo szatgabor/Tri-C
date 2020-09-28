@@ -129,7 +129,7 @@ input[type=text] {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only (min-width:426px) and (max-width: 768px) {
     body {
         .bcg6 {
             height: 30rem;
@@ -149,6 +149,15 @@ input[type=text] {
         }
     }
 
+    .contactform {
+        div {
+            label {
+                width: 20rem;
+            }
+        }
+
+    }
+
     .contactformend {
         div {
             button {
@@ -156,9 +165,13 @@ input[type=text] {
             }
         }
     }
+
+    #subject {
+        width: 30rem;
+    }
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:425px) {
     header {
         &.bcg6 {
             height: 26rem;
@@ -183,11 +196,11 @@ input[type=text] {
             flex-direction: column;
 
             label {
-                text-align: left;
+                text-align: center;
             }
 
             button {
-                margin-left: 2.5rem;
+                margin-left: 8.8rem;
             }
         }
     }
@@ -210,7 +223,7 @@ input[type=text] {
 
     #subject {
         width: 16rem;
-        margin-left: -.4rem;
+        margin-left: 2.8rem;
     }
 
     .faq-main {
