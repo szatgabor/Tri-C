@@ -171,7 +171,7 @@ input[type=text] {
     }
 }
 
-@media only screen and (max-width:425px) {
+@media only (min-width:321px) and (max-width:425px) {
     header {
         &.bcg6 {
             height: 26rem;
@@ -232,60 +232,63 @@ input[type=text] {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    header {
+        &.bcg6 {
+            height: 26rem;
+            background-size: cover;
 
-// @media only screen and (max-width: 425px) {
-//     .map {
-//         transform: scale(0.8);
-//     }
+            .upper {
+                height: 30%;
 
-//     .contactform {
-//         overflow-x: auto;
-//         width: 50%;
-//         float: none;
-//         justify-content: center;
-//         margin-right: 20%;
-//     }
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 0.9rem;
+                    padding: 1% 0;
+                }
+            }
+        }
+    }
 
-//     .contactform>div {
-//         margin-right: 1em;
-//     }
+    .contactformend {
+        div {
+            display: flex;
+            flex-direction: column;
 
-// }
+            label {
+                text-align: left;
+            }
 
-// @media only screen and (min-width:425px) and (max-width: 768px) {
-//     .map {
-//         transform: scale(1);
-//     }
+            button {
+                margin-left: 2.5rem;
+            }
+        }
+    }
 
-//     .contactform {
-//         margin-right: 20%;
+    .contactform {
+        div {
+            display: flex;
+            flex-direction: column;
 
-//         div {
-//             padding-bottom: 2rem;
+            label {
+                text-align: left;
+                width: 15rem;
+            }
 
-//             input {
-//                 width: 15rem;
-//                 height: 2rem;
-//             }
+            input {
+                width: 16rem;
+            }
+        }
+    }
 
-//             label {
-//                 width: 15vw;
-//             }
+    #subject {
+        width: 16rem;
+        margin-left: -.5rem;
+    }
 
-//             #subject {
-//                 width: 15rem;
-//             }
-//         }
-//     }
-
-//     .contactform>div {
-//         margin-top: 1em;
-//     }
-
-// }
-
-// @media only screen and (min-width:769px) and (max-width: 1024px) {
-//     .map {
-//         transform: scale(0.8);
-//     }
-// }
+    .faq-main {
+        display: flex;
+        flex-direction: column;
+    }
+}
