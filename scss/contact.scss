@@ -261,7 +261,7 @@ input[type=text] {
             }
 
             button {
-                margin-left: 2.5rem;
+                // margin-left: 2.5rem;
             }
         }
     }
@@ -278,13 +278,14 @@ input[type=text] {
 
             input {
                 width: 16rem;
+                display: block;
             }
         }
     }
 
     #subject {
-        width: 16rem;
-        margin-left: -.5rem;
+        // width: 16rem;
+        // margin-left: -.5rem;
     }
 
     .faq-main {
