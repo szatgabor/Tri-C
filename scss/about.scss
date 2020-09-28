@@ -1,17 +1,20 @@
 @import "var";
 
+//Positioning header elements
 header {
     .upper {
         bottom: 18rem;
     }
 }
 
+//Mirroring background pic & header elements
 nav,
 div.banner {
     transform: scale(-1);
     transform: scaleX(-1);
 }
 
+//Content formatting
 .container {
     display: flex;
     justify-content: baseline;
@@ -85,6 +88,8 @@ div.banner {
     background: url(../img/shutterstock_221314546.jpg) no-repeat top left/cover;
     height: 100vh;
 }
+
+//Responsiveness on other devices
 
 @media (min-width: 769px) and (max-width: 1023px) {
     body {

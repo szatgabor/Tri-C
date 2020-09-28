@@ -1,11 +1,13 @@
 @import "var";
 
+//Positioning header elements
 header {
   .upper {
     bottom: 8rem;
   }
 }
 
+//Content formatting
 .company-info {
   margin: 1% 3%;
   font-size: 1.5rem;
@@ -17,6 +19,7 @@ header {
   }
 }
 
+//Our next courses
 .our-courses {
   background-color: $secondary-color;
   color: #ffffff;
@@ -75,6 +78,7 @@ header {
   }
 }
 
+//Our location
 .our-location {
   background-color: $third-color;
   color: #fff;
@@ -94,6 +98,7 @@ header {
   }
 }
 
+//Google Maps
 .map {
   overflow: hidden;
 
@@ -103,6 +108,7 @@ header {
   }
 }
 
+//Latest Health Care News
 .latest-news {
   background-color: $primary-color;
   color: #ffffff;
@@ -158,6 +164,9 @@ header {
     }
   }
 }
+
+
+//Responsiveness on other devices
 
 @media screen and (max-width: 768px) {
   body {

@@ -1,12 +1,13 @@
 @import "var";
 
+/* style fot the main container */
 .reg-container {
     margin-right: 25%;
     padding: 2rem;
     display: flex;
     flex-direction: column;
 
-
+    /* Style for the labels and inputs */
     div {
         padding-bottom: 2rem;
         display: flex;
@@ -47,6 +48,7 @@
     border: 2px solid $third-color;
 }
 
+/*Mobile version responsive */
 @media screen and (max-width:320px) {
     header {
         &.bcg {
@@ -155,6 +157,7 @@
     }
 }
 
+/*responsive for Tablets */
 @media only screen and (min-width:426px) and (max-width: 768px) {
     body {
         .bcg {
@@ -197,6 +200,7 @@
     }
 }
 
+/* Responsive for laptop*/
 @media (min-width:769px) and (max-width: 1024px) {
     .reg-container {
 

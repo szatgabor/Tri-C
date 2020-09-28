@@ -1,11 +1,13 @@
 @import 'var';
 
 body {
+
+    //Banner in the header
     .banner {
         background-color: $secondary-color-opacity;
     }
 
-
+    //All the content between header and footer
     .content {
         padding-left: 20%;
         padding-right: 30%;
@@ -28,6 +30,7 @@ body {
     }
 }
 
+//Media query for Tablets
 @media (min-width:426px) and (max-width: 768px) {
     body {
         .bcg-membership {
@@ -57,6 +60,7 @@ body {
 
 }
 
+//Media query for smartphones till 425px
 @media screen and (max-width: 425px) {
     header {
         &.bcg-membership {

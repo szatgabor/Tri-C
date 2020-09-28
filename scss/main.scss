@@ -1,5 +1,6 @@
 @import "var";
 
+//CSS Reset
 * {
   padding: 0;
   margin: 0;
@@ -94,6 +95,7 @@ header {
   }
 }
 
+//Navigation
 nav {
   position: relative;
   padding-top: 2rem;
@@ -187,6 +189,8 @@ footer {
 }
 
 // End of Footer style
+
+//Responsiveness on other devices
 
 @media screen and (max-width: 425px) {
 

@@ -6,8 +6,9 @@
 }
 
 body {
-    .banner {}
 
+
+    // Contains everything between header and footer
     .container {
         display: flex;
         margin-bottom: 15%;
@@ -31,6 +32,7 @@ body {
             font-size: 0.9rem;
         }
 
+        // Positioned on the left side, contains all the archives distributed in months. Displayed in a column
         .side-bar {
             float: left;
             display: flex;
@@ -49,6 +51,7 @@ body {
             }
         }
 
+        //Contains the media articles 
         .whole-content {
             width: 80%;
             flex-direction: column;
@@ -56,6 +59,7 @@ body {
             margin-right: 8%;
             margin-top: 24px;
 
+            //Contains the pictures and the articles texts positioned on right side of the nav-bar
             .content {
                 display: flex;
                 width: 100%;
@@ -63,6 +67,7 @@ body {
                 margin-top: 1%;
                 border-bottom: 1px solid var(--gray-color);
 
+                //Empty div made to display the article picture as a background
                 .content-left {
                     overflow: hidden;
                     width: 40%;
@@ -73,6 +78,7 @@ body {
                     height: 85%;
                 }
 
+                //Articles text
                 .content-right {
                     font-size: 0.5rem;
                     width: 50%;
@@ -95,6 +101,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+    //Media query for mobile devices, including smartphones over 321px and tablets till 768px
     body {
         width: 100vw;
 
@@ -169,6 +177,8 @@ body {
 }
 
 @media only screen and (max-width: 320px) {
+
+    //Media query for very small smartphones, till 320px
     header {
         &.bcg7 {
             height: 26rem;

@@ -1,5 +1,6 @@
 @import "var";
 
+/*Style for the text block */
 .text {
     margin: 2rem 7rem;
 
@@ -10,6 +11,7 @@
     }
 }
 
+/* Responsive for mobile version*/
 @media (min-width:426px) and (max-width:768px) {
     body {
         .bcg5 {

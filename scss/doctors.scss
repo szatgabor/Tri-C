@@ -1,5 +1,6 @@
 @import "var";
 
+//Positioning header elements
 header {
 	.upper {
 		bottom: 5rem;
@@ -22,6 +23,7 @@ header {
 	}
 }
 
+//Content formatting
 .doctors-container-row {
 	display: flex;
 	justify-content: flex-start;
@@ -41,6 +43,8 @@ header {
 		}
 	}
 }
+
+//Responsiveness on other devices
 
 @media only (min-width: 769px) and (max-width: 1023px) {
 	header {
