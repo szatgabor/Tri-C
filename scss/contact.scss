@@ -1,5 +1,6 @@
 @import "var";
 
+//Styling the text of the Location
 .location-text {
     color: $footer-color;
 
@@ -9,11 +10,13 @@
     width: 100%;
 }
 
+//Formatting of the map
 .map {
     height: 100%;
     width: 100%;
 }
 
+//Styling of the contact form
 .contactform {
     padding: 0rem 3rem;
     display: flex;
@@ -98,6 +101,7 @@
     color: white;
 }
 
+//styling of the FAQ container and its contents
 .faq-main {
     box-sizing: border-box;
     padding: 4em 4em;
@@ -122,6 +126,7 @@ input[type="text"] {
     margin: 0.6 0;
 }
 
+//Media Query for mobile devices
 @media only (min-width: 426px) and (max-width: 768px) {
     body {
         .bcg6 {
