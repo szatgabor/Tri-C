@@ -86,38 +86,38 @@ div.banner {
     height: 100vh;
 }
 
-// @media (min-width: 769px) and (max-width: 1023px) {
-//     body {
-//         .bcg2 {
-//             height: 30rem;
+@media (min-width: 769px) and (max-width: 1023px) {
+    body {
+        .bcg2 {
+            height: 30rem;
 
-//             .upper {
-//                 padding: 3% 2%;
-//                 bottom: 2%;
+            .upper {
+                padding: 3% 2%;
+                bottom: 2%;
 
-//                 h1,
-//                 h3 {
-//                     width: 100%;
-//                     font-size: 1.5rem;
-//                     padding: 1% 0;
-//                 }
-//             }
-//         }
+                h1,
+                h3 {
+                    width: 100%;
+                    font-size: 1.5rem;
+                    padding: 1% 0;
+                }
+            }
+        }
 
-//         .our-learning-hub,
-//         .our-team {
-//             padding: .4rem;
+        .our-learning-hub,
+        .our-team {
+            padding: .4rem;
 
-//             .learning-column {
-//                 padding: 1rem 2rem;
-//             }
-//         }
+            .learning-column {
+                padding: 1rem 2rem;
+            }
+        }
 
-//         .pre-footer-bg {
-//             height: 30rem;
-//         }
-//     }
-// }
+        .pre-footer-bg {
+            height: 30rem;
+        }
+    }
+}
 
 @media (min-width: 426px) and (max-width: 768px) {
     .our-values {
@@ -151,6 +151,10 @@ div.banner {
             }
         }
     }
+
+    .learning-column {
+        padding: 1rem 1rem;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -183,6 +187,7 @@ div.banner {
 
         .learning-column {
             width: 100%;
+            padding: 1rem 0rem;
         }
     }
 
