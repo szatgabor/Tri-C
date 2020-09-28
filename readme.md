@@ -49,6 +49,7 @@ MDN Web docs
 - index.html
 - doctors.html
 - merging branches
+- Project finalization
 
 ### Nils
 
