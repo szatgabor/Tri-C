@@ -10,7 +10,7 @@
     }
 }
 
-@media (max-width:768px) {
+@media (min-width:426px) and (max-width:768px) {
     body {
         .bcg5 {
             height: 30rem;
@@ -34,7 +34,7 @@
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:425px) {
     header {
         &.bcg5 {
             height: 26rem;
